@@ -1,7 +1,7 @@
 class ImageFacade
 
-  def get_images(search)
-    results = service.get_images(search)
+  def get_images(discover)
+    results = service.get_images(discover)
     results[:value].map do |image_data|
       Image.new(image_data)
     end

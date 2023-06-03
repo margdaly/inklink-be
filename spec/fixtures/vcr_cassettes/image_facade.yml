@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?pageNumber=1&pageSize=5&q=traditional%20american
+    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=5&q=traditional%20american
     body:
       encoding: US-ASCII
       string: ''
@@ -23,11 +23,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Jun 2023 18:52:30 GMT
+      - Sat, 03 Jun 2023 22:53:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '820'
+      - '736'
       Connection:
       - keep-alive
       Vary:
@@ -35,30 +35,29 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '94'
+      - '97'
       X-Ratelimit-Requests-Reset:
-      - '7737'
+      - '79705'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
       - 1.2.8
       X-Rapidapi-Region:
-      - AWS - us-west-2
+      - AWS - us-east-1
     body:
       encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
         Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
         American Traditional Tattoo Designs","title":"Top 70 American Traditional
-        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://pejournal.online/wp-content/uploads/2021/10/Traditional-American-international-responsibilities-have-lost-their-importance.jpg","height":486,"width":863,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4689963606952189161","thumbnailHeight":60,"thumbnailWidth":106,"base64Encoding":null,"name":"Traditional
-        American international responsibilities have lost their importance","title":"Traditional
-        American International Responsibilities Have Lost Their Importance - Political
-        Economy Journal","provider":{"name":"pejournal","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pejournal.online/traditional-american-responsibilities/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
+        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
         Incredible American Traditional Tattoo Design & Ideas","provider":{"name":"tattoolikethepros","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://tattoolikethepros.com/american-traditional-tattoo/"},{"url":"https://www.glamouradvice.com/wp-content/uploads/American-Traditional-Tattoo-Ideas-with-Meaning.jpg","height":1100,"width":2280,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4103522553700283812","thumbnailHeight":206,"thumbnailWidth":426,"base64Encoding":null,"name":"","title":"15
-        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"}]}'
-  recorded_at: Sat, 03 Jun 2023 18:52:30 GMT
+        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"},{"url":"https://fashionterest.com/wp-content/uploads/2021/07/american-traditional-tattoo-2021-44.jpg","height":683,"width":1024,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=3292843572229698671","thumbnailHeight":170,"thumbnailWidth":254,"base64Encoding":null,"name":"american
+        traditional tattoo 2021","title":"30 American Traditional Tattoo Designs with
+        History","provider":{"name":"fashionterest","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://fashionterest.com/american-traditional-tattoo/"}]}'
+  recorded_at: Sat, 03 Jun 2023 22:53:02 GMT
 - request:
     method: get
-    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?pageNumber=1&pageSize=5&q=traditional%20american
+    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=5&q=traditional%20american
     body:
       encoding: US-ASCII
       string: ''
@@ -79,11 +78,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Jun 2023 18:52:46 GMT
+      - Sat, 03 Jun 2023 22:53:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '820'
+      - '736'
       Connection:
       - keep-alive
       Vary:
@@ -91,81 +90,24 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '93'
+      - '96'
       X-Ratelimit-Requests-Reset:
-      - '7721'
+      - '79686'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
       - 1.2.8
       X-Rapidapi-Region:
-      - AWS - us-west-2
+      - AWS - us-east-1
     body:
       encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
         Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
         American Traditional Tattoo Designs","title":"Top 70 American Traditional
-        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://pejournal.online/wp-content/uploads/2021/10/Traditional-American-international-responsibilities-have-lost-their-importance.jpg","height":486,"width":863,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4689963606952189161","thumbnailHeight":60,"thumbnailWidth":106,"base64Encoding":null,"name":"Traditional
-        American international responsibilities have lost their importance","title":"Traditional
-        American International Responsibilities Have Lost Their Importance - Political
-        Economy Journal","provider":{"name":"pejournal","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pejournal.online/traditional-american-responsibilities/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
+        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
         Incredible American Traditional Tattoo Design & Ideas","provider":{"name":"tattoolikethepros","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://tattoolikethepros.com/american-traditional-tattoo/"},{"url":"https://www.glamouradvice.com/wp-content/uploads/American-Traditional-Tattoo-Ideas-with-Meaning.jpg","height":1100,"width":2280,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4103522553700283812","thumbnailHeight":206,"thumbnailWidth":426,"base64Encoding":null,"name":"","title":"15
-        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"}]}'
-  recorded_at: Sat, 03 Jun 2023 18:52:46 GMT
-- request:
-    method: get
-    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?pageNumber=1&pageSize=5&q=traditional%20american
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      X-Rapidapi-Key:
-      - X-RapidAPI-Key
-      X-Rapidapi-Host:
-      - X-RapidAPI-Host
-      User-Agent:
-      - Faraday v2.7.5
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 03 Jun 2023 18:53:00 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '820'
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Ratelimit-Requests-Limit:
-      - '100'
-      X-Ratelimit-Requests-Remaining:
-      - '92'
-      X-Ratelimit-Requests-Reset:
-      - '7707'
-      Server:
-      - RapidAPI-1.2.8
-      X-Rapidapi-Version:
-      - 1.2.8
-      X-Rapidapi-Region:
-      - AWS - us-west-2
-    body:
-      encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
-        Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
-        American Traditional Tattoo Designs","title":"Top 70 American Traditional
-        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://pejournal.online/wp-content/uploads/2021/10/Traditional-American-international-responsibilities-have-lost-their-importance.jpg","height":486,"width":863,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4689963606952189161","thumbnailHeight":60,"thumbnailWidth":106,"base64Encoding":null,"name":"Traditional
-        American international responsibilities have lost their importance","title":"Traditional
-        American International Responsibilities Have Lost Their Importance - Political
-        Economy Journal","provider":{"name":"pejournal","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pejournal.online/traditional-american-responsibilities/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
-        Incredible American Traditional Tattoo Design & Ideas","provider":{"name":"tattoolikethepros","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://tattoolikethepros.com/american-traditional-tattoo/"},{"url":"https://www.glamouradvice.com/wp-content/uploads/American-Traditional-Tattoo-Ideas-with-Meaning.jpg","height":1100,"width":2280,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4103522553700283812","thumbnailHeight":206,"thumbnailWidth":426,"base64Encoding":null,"name":"","title":"15
-        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"}]}'
-  recorded_at: Sat, 03 Jun 2023 18:53:00 GMT
+        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"},{"url":"https://fashionterest.com/wp-content/uploads/2021/07/american-traditional-tattoo-2021-44.jpg","height":683,"width":1024,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=3292843572229698671","thumbnailHeight":170,"thumbnailWidth":254,"base64Encoding":null,"name":"american
+        traditional tattoo 2021","title":"30 American Traditional Tattoo Designs with
+        History","provider":{"name":"fashionterest","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://fashionterest.com/american-traditional-tattoo/"}]}'
+  recorded_at: Sat, 03 Jun 2023 22:53:21 GMT
 recorded_with: VCR 6.1.0
