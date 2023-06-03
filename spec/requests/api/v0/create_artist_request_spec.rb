@@ -26,5 +26,25 @@ RSpec.describe 'Artists API', type: :request do
       expect(created_artist.pricing).to eq(artist_params[:pricing])
       expect(created_artist.contact_info).to eq(artist_params[:contact_info])
     end
+
+    it 'sad path: returns an error is a required attribute is missing' do
+      artist_params = ({ "name": "Bob Ross",
+        "username": "bobrossrules@gmail.com",
+        "password_digest": "password",
+        "styles": ["American Traditional", "Watercolor"]
+        })
+
+      headers = { "CONTENT_TYPE" => "application/json" }
+
+      post '/api/v0/artists', headers: headers, params: JSON.generate(artist: artist_params)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(400)
+
+      json = JSON.parse(response.body, symbolize_names: true)
+
+      expect(json).to have_key(:errors)
+      require 'pry'; binding.pry
+    end
   end
 end
