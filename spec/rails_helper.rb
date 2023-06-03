@@ -72,10 +72,10 @@ end
 #   config.configure_rspec_metadata!
 # end
 
-# #Shoulda::Matchers add to bottom of file 
-# Shoulda::Matchers.configure do |config|
-#   config.integrate do |with|
-#     with.test_framework :rspec
-#     with.library :rails
-#   end
-# end
+#Shoulda::Matchers add to bottom of file 
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
