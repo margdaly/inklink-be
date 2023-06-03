@@ -40,22 +40,20 @@ RSpec.describe 'Get One User' do
       expect(attributes[:password_digest]).to be_a(String)
     end
 
-    # scenario 'sad path' do
-    #   invalid_id = 123123123123
+    scenario 'sad path' do
+      invalid_id = 123123123123
 
-    #   get "/api/v0/users/#{invalid_id}"
+      get "/api/v0/users/#{invalid_id}"
 
-    #   failure = JSON.parse(response.body, symbolize_names: true)
+      failure = JSON.parse(response.body, symbolize_names: true)
 
-    #   expect(response.status).to eq(404)
-    #   expect(response).to_not be_successful
+      expect(response.status).to eq(404)
+      expect(response).to_not be_successful
 
-      # expect(failure).to have_key(:errors)
+      expect(failure).to be_a(Hash)
+      expect(failure).to have_key(:error)
 
-      # errors = failure[:errors]
-
-      # expect(errors).to be_an(Array)
-      # expect(errors[0]).to have_key(:detail)
-    # end
+      expect(failure[:error]).to eq("Couldn't find User with 'id'=123123123123")
+    end
   end
 end
