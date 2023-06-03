@@ -12,8 +12,6 @@ RSpec.describe 'Create User' do
 
       post '/api/v0/users', headers: headers, params: JSON.generate(user: user_params)
 
-      data = JSON.parse(response.body, symbolize_names: true)
-
       expect(response).to be_successful
       expect(response.status).to eq(201)
 
