@@ -33,8 +33,8 @@ RSpec.describe 'Get One User' do
       expect(attributes).to have_key(:city)
       expect(attributes[:city]).to be_a(String)
 
-      expect(attributes).to have_key(:username)
-      expect(attributes[:username]).to be_a(String)
+      expect(attributes).to have_key(:email)
+      expect(attributes[:email]).to be_a(String)
 
       expect(attributes).to have_key(:password_digest)
       expect(attributes[:password_digest]).to be_a(String)
