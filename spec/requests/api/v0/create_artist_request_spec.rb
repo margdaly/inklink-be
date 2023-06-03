@@ -43,8 +43,8 @@ RSpec.describe 'Artists API', type: :request do
 
       json = JSON.parse(response.body, symbolize_names: true)
 
-      expect(json).to have_key(:errors)
-      require 'pry'; binding.pry
+      expect(json).to have_key(:error)
+      expect(json[:error]).to eq("Validation failed: Pricing can't be blank, Contact info can't be blank")
     end
   end
 end
