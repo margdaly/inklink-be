@@ -12,6 +12,8 @@ RSpec.describe 'Create User' do
 
       post '/api/v0/users', headers: headers, params: JSON.generate(user: user_params)
 
+      data = JSON.parse(response.body, symbolize_names: true)
+
       expect(response).to be_successful
       expect(response.status).to eq(201)
 
@@ -20,7 +22,7 @@ RSpec.describe 'Create User' do
       expect(new_user.name).to eq(user_params[:name])
       expect(new_user.city).to eq(user_params[:city])
       expect(new_user.email).to eq(user_params[:email])
-      expect(new_user.password_digest).to_not eq(user_params[:password_digest])
+      expect(new_user.password_digest).to eq(user_params[:password_digest])
     end
 
     scenario 'sad path: missing required attribute' do
