@@ -4,7 +4,7 @@ RSpec.describe 'Artists API', type: :request do
   describe 'GET /api/v0/artist/:id' do
     it 'returns an artist' do
       artist = create(:artist, name: "Bob Ross",
-                               username: "bobrossrules@gmail.com",
+                               email: "bobrossrules@gmail.com",
                                password_digest: "password",
                                styles: ["American Traditional", "Watercolor"],
                                pricing: "$",
@@ -20,8 +20,8 @@ RSpec.describe 'Artists API', type: :request do
       expect(json[:data][:id]).to eq(artist.id.to_s)
       expect(json[:data][:attributes]).to have_key(:name)
       expect(json[:data][:attributes][:name]).to eq(artist.name)
-      expect(json[:data][:attributes]).to have_key(:username)
-      expect(json[:data][:attributes][:username]).to eq(artist.username)
+      expect(json[:data][:attributes]).to have_key(:email)
+      expect(json[:data][:attributes][:email]).to eq(artist.email)
       expect(json[:data][:attributes]).to have_key(:password_digest)
       expect(json[:data][:attributes][:password_digest]).to eq(artist.password_digest)
       expect(json[:data][:attributes]).to have_key(:styles)
