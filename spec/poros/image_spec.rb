@@ -2,9 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Image do
   it 'exists and has attributes' do
-    data = {:_type=>'images',
-            :value=>[{:thumbnail=>'https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365',
-                      :title=>'American Traditional - Pipeburn'}]}
+    data = {:thumbnail=>'https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365',
+            :title=>'American Traditional - Pipeburn'}
 
     image = Image.new(data)
 
