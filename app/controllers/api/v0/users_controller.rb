@@ -13,6 +13,6 @@ class Api::V0::UsersController < ApplicationController
   end
 
   def render_not_found_response(error)
-    render json: ErrorSerializer.serialize(error), status: 404
+    render json: ErrorSerializer.new(error), status: 404
   end
 end
