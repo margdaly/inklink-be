@@ -11,7 +11,7 @@ RSpec.describe 'Artists API', type: :request do
                         "contact_info": "666-867-5309"
                         })
 
-      headers = { CONTENT_TYPE => "application/json" }
+      headers = { "CONTENT_TYPE" => "application/json" }
 
       post '/api/v0/artists', headers: headers, params: JSON.generate(artist: artist_params)
 
@@ -24,7 +24,7 @@ RSpec.describe 'Artists API', type: :request do
       expect(created_artist.password_digest).to eq(artist_params[:password_digest])
       expect(created_artist.styles).to eq(artist_params[:styles])
       expect(created_artist.pricing).to eq(artist_params[:pricing])
-      expect(created_artist.contact_info).to eq(artist_params[:name])
+      expect(created_artist.contact_info).to eq(artist_params[:contact_info])
     end
   end
 end
