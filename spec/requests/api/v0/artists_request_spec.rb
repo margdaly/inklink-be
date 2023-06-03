@@ -12,7 +12,7 @@ RSpec.describe 'Artists API', type: :request do
 
       get "/api/v0/artists/#{artist.id}"
 
-      json = JSON.parse(response.body, symoblize_names: true)
+      json = JSON.parse(response.body, symbolize_names: true)
 
       expect(response).to be_successful
 
@@ -30,6 +30,13 @@ RSpec.describe 'Artists API', type: :request do
       expect(json[:data][:attributes][:pricing]).to eq(artist.pricing)
       expect(json[:data][:attributes]).to have_key(:contact_info)
       expect(json[:data][:attributes][:contact_info]).to eq(artist.contact_info)
+    end
+
+    it 'sad path: returns a 404 status if artist is not found' do
+      get '/api/v0/artists/100000'
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(404)
     end
   end
 end
