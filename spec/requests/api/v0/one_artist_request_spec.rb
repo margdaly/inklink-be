@@ -37,6 +37,13 @@ RSpec.describe 'Artists API', type: :request do
 
       expect(response).to_not be_successful
       expect(response.status).to eq(404)
+
+      failure = JSON.parse(response.body, symbolize_names: true)
+
+      expect(failure).to be_a(Hash)
+      expect(failure).to have_key(:error)
+
+      expect(failure[:error]).to eq("Couldn't find Artist with 'id'=100000")
     end
   end
 end
