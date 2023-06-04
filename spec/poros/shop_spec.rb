@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.descibe Shop do
+RSpec.describe Shop do
   describe 'shop' do
     it 'exists and has attributes' do
       data = {:location=>

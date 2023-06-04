@@ -14,7 +14,7 @@ RSpec.describe ShopsFacade do
       shops_facade = ShopsFacade.new
 
       expect(shops_facade.nearby_shops("colorado springs")).to be_a(Array)
-      expect(shops_facade.nearby_shops("colorado springs").to all(be_a(Shop)))
+      expect(shops_facade.nearby_shops("colorado springs")).to all(be_a(Shop))
     end
   end
 end
