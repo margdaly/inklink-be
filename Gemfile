@@ -39,7 +39,7 @@ gem "bootsnap", require: false
 gem 'faraday'
 gem 'figaro'
 gem 'jsonapi-serializer'
-
+gem 'reline', '~> 0.3.1'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
