@@ -10,8 +10,8 @@ class ImagesService
 
   def conn
     Faraday.new(url: 'https://contextualwebsearch-websearch-v1.p.rapidapi.com') do |faraday|
-      faraday.headers['X-RapidAPI-Key'] = ENV['X-RapidAPI-Key']
-      faraday.headers['X-RapidAPI-Host'] = ENV['X-RapidAPI-Host']
+      faraday.headers['X-RapidAPI-Key'] = ENV['X_RapidAPI_Key']
+      faraday.headers['X-RapidAPI-Host'] = ENV['X_RapidAPI_Host']
     end
   end
 end
