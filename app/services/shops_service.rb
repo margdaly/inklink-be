@@ -1,6 +1,5 @@
 class ShopsService
   def nearby_shops(location)
-    require 'pry'; binding.pry
     get_url("/v3/places/search?categories=11075&near=#{location}")
   end
 
