@@ -12,7 +12,7 @@ RSpec.describe ImageFacade do
       VCR.use_cassette('image_facade') do
         image_facade = ImageFacade.new
 
-        expect(image_facade.get_images('traditional american').count).to eq(5)
+        expect(image_facade.get_images('traditional american').count).to eq(15)
         expect(image_facade.get_images('traditional american')).to be_an(Array)
         expect(image_facade.get_images('traditional american')).to all(be_an(Image))
       end
