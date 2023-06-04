@@ -1,5 +1,6 @@
 class ShopsService
   def nearby_shops(location)
+    require 'pry'; binding.pry
     get_url("/v3/places/search?categories=11075&near=#{location}")
   end
 
@@ -10,7 +11,6 @@ class ShopsService
 
   def conn 
     Faraday.new(url: "https://api.foursquare.com") do |f|
-      require 'pry'; binding.pry
       f.headers['Authorization'] = ENV['Authorization']
     end
   end
