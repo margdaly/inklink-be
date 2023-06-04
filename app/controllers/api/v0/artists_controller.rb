@@ -1,5 +1,5 @@
 class Api::V0::ArtistsController < ApplicationController
-  before_action :set_artist, only: [:show]
+  before_action :set_artist, only: [:show, :update]
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
   rescue_from ActiveRecord::RecordInvalid, with: :render_invalid_response
 
@@ -19,6 +19,12 @@ class Api::V0::ArtistsController < ApplicationController
     artist = Artist.create!(artist_params)
 
     render json: ArtistSerializer.new(artist), status: 201
+  end
+
+  def update
+    @artist.update!(artist_params)
+
+    render json: ArtistSerializer.new(@artist), status: 200
   end
 
   private
