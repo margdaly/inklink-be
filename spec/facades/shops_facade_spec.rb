@@ -11,7 +11,7 @@ RSpec.describe ShopsFacade do
 
   describe 'nearby_shops' do
     it 'returns an array of shops', :vcr do
-      VCR.use_cassette('shops_facade') do
+      VCR.use_cassette('shops_facade', :record => :new_episodes) do
         shops_facade = ShopsFacade.new
   
         expect(shops_facade.nearby_shops("colorado springs")).to be_a(Array)
