@@ -12,7 +12,7 @@ RSpec.describe 'DiscoverTattooStyle' do
         amer_tradition = JSON.parse(response.body, symbolize_names: true)
 
         expect(amer_tradition[:data]).to be_an(Array)
-        expect(amer_tradition[:data].count).to eq(5)
+        expect(amer_tradition[:data].count).to eq(15)
 
         amer_tradition[:data].map do |data|
           expect(data).to have_key(:id)
