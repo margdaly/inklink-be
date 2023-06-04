@@ -5,7 +5,8 @@ RSpec.describe 'Artists API', type: :request do
     it 'returns an artist' do
       artist = create(:artist, name: "Bob Ross",
                                email: "bobrossrules@gmail.com",
-                               password_digest: "password",
+                               password: "password",
+                               password_confirmation: "password",
                                styles: ["American Traditional", "Watercolor"],
                                pricing: "$",
                                contact_info: "666-867-5309")
