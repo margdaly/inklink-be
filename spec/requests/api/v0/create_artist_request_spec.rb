@@ -4,7 +4,7 @@ RSpec.describe 'Artists API', type: :request do
   describe 'POST /api/v0/artists' do
     it 'creates an artist when all attributes are present' do
       artist_params = ({ "name": "Bob Ross",
-                        "username": "bobrossrules@gmail.com",
+                        "email": "bobrossrules@gmail.com",
                         "password_digest": "password",
                         "styles": ["American Traditional", "Watercolor"],
                         "pricing": "$",
@@ -20,7 +20,7 @@ RSpec.describe 'Artists API', type: :request do
       expect(response).to be_successful
       expect(response.status).to eq(201)
       expect(created_artist.name).to eq(artist_params[:name])
-      expect(created_artist.username).to eq(artist_params[:username])
+      expect(created_artist.email).to eq(artist_params[:email])
       expect(created_artist.password_digest).to eq(artist_params[:password_digest])
       expect(created_artist.styles).to eq(artist_params[:styles])
       expect(created_artist.pricing).to eq(artist_params[:pricing])
@@ -29,7 +29,7 @@ RSpec.describe 'Artists API', type: :request do
 
     it 'sad path: returns an error is a required attribute is missing' do
       artist_params = ({ "name": "Bob Ross",
-        "username": "bobrossrules@gmail.com",
+        "email": "bobrossrules@gmail.com",
         "password_digest": "password",
         "styles": ["American Traditional", "Watercolor"]
         })
