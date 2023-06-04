@@ -39,7 +39,6 @@ gem "bootsnap", require: false
 gem 'faraday'
 gem 'figaro'
 gem 'jsonapi-serializer'
-gem 'reline', '~> 0.3.1'
 
 
 group :development, :test do

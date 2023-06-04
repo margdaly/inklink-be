@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Rapidapi-Key:
+      - e63381300emsh2aad7a75e0cbb5cp18e5c4jsn1946e269d0a3
+      X-Rapidapi-Host:
+      - contextualwebsearch-websearch-v1.p.rapidapi.com
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 04 Jun 2023 20:35:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2079'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '90'
+      X-Ratelimit-Requests-Reset:
+      - '71042'
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+    body:
+      encoding: ASCII-8BIT
+      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+        Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
+        American Traditional Tattoo Designs","title":"Top 70 American Traditional
+        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
+        Incredible American Traditional Tattoo Design & Ideas","provider":{"name":"tattoolikethepros","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://tattoolikethepros.com/american-traditional-tattoo/"},{"url":"https://www.glamouradvice.com/wp-content/uploads/American-Traditional-Tattoo-Ideas-with-Meaning.jpg","height":1100,"width":2280,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4103522553700283812","thumbnailHeight":206,"thumbnailWidth":426,"base64Encoding":null,"name":"","title":"15
+        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"},{"url":"https://fashionterest.com/wp-content/uploads/2021/07/american-traditional-tattoo-2021-44.jpg","height":683,"width":1024,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=3292843572229698671","thumbnailHeight":170,"thumbnailWidth":254,"base64Encoding":null,"name":"american
+        traditional tattoo 2021","title":"30 American Traditional Tattoo Designs with
+        History","provider":{"name":"fashionterest","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://fashionterest.com/american-traditional-tattoo/"},{"url":"https://www.joanzunigatattoos.com/wp-content/uploads/2021/05/eagle-best-traditional-american-tattoo-nearby-fayetteville-nc.jpg","height":516,"width":1000,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=5285709075063844594","thumbnailHeight":193,"thumbnailWidth":374,"base64Encoding":null,"name":"","title":"eagle-best-traditional-american-tattoo-nearby--fayetteville-nc
+        | Joan Zuniga Tattoo","provider":{"name":"joanzunigatattoos","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.joanzunigatattoos.com/quick-guide-to-traditional-american-tattoo-or-traditional-tattoo-style/eagle-best-traditional-american-tattoo-nearby-fayetteville-nc/"},{"url":"https://www.savedtattoo.com/wp-content/uploads/2021/04/American-Traditional-Tattoo.jpg","height":800,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=5101348616976632332","thumbnailHeight":300,"thumbnailWidth":450,"base64Encoding":null,"name":"","title":"50+
+        American Traditional Tattoo Guide (and Design Ideas) - Saved Tattoo","provider":{"name":"savedtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.savedtattoo.com/american-traditional-tattoo/"},{"url":"https://www.thetrendspotter.net/wp-content/uploads/2021/03/Traditional-American-Tattoos.jpg","height":450,"width":800,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1125211940931064371","thumbnailHeight":168,"thumbnailWidth":298,"base64Encoding":null,"name":"Traditional
+        American Tattoos","title":"30 Incredible American Traditional Tattoo Designs
+        - The Trend Spotter","provider":{"name":"thetrendspotter","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.thetrendspotter.net/american-traditional-tattoos/"},{"url":"https://www.flowernifty.com/wp-content/uploads/2020/05/american-traditional-rose-imgur-american-traditional-rose.jpg","height":2141,"width":2126,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4847723962928239745","thumbnailHeight":199,"thumbnailWidth":198,"base64Encoding":null,"name":"American
+        Traditional Rose - Imgur","title":"American Traditional Rose - Imgur - american
+        traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/american-traditional-rose-imgur-american-traditional-rose/"},{"url":"http://inspireartstudio.com/wp-content/uploads/2019/10/free-quilt-block-patterns-library-unique-traditional-american-quilt-patterns.jpg","height":350,"width":350,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=8795056474927544618","thumbnailHeight":65,"thumbnailWidth":65,"base64Encoding":null,"name":"free
+        quilt block patterns library Unique Traditional American Quilt Patterns","title":"free
+        quilt block patterns library Unique Traditional American Quilt Patterns |
+        Quilt Pattern Inspirations","provider":{"name":"inspireartstudio","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"http://inspireartstudio.com/unique-traditional-american-quilt-patterns/free-quilt-block-patterns-library-unique-traditional-american-quilt-patterns/"},{"url":"https://gotohomerepair.com/wp-content/uploads/2016/11/Traditional-American-Dining-Room-and-Kitchen-Combination.jpg","height":800,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7073793263485547892","thumbnailHeight":150,"thumbnailWidth":225,"base64Encoding":null,"name":"Featured
+        Image of Traditional American Dining Room And Kitchen Combination","title":"Traditional
+        American Dining Room And Kitchen Combination #7966 | House Decoration Ideas","provider":{"name":"gotohomerepair","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://gotohomerepair.com/traditional-american-dining-room-and-kitchen-combination/"},{"url":"https://semimd.com/wp-content/uploads/2018/03/Top-10-Traditional-American-Dishes.jpg","height":519,"width":465,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=8167069286292679863","thumbnailHeight":194,"thumbnailWidth":173,"base64Encoding":null,"name":"Top
+        10 Traditional American Dishes","title":"Top 10 Traditional American Dishes
+        - Hambureger, Meatloaf, Hot Dogs","provider":{"name":"semimd","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://semimd.com/top-10-traditional-american-dishes/"},{"url":"http://tattoogrid.net/wp-content/uploads/2019/05/American-traditional-hear-tattoo-by-Mark-Jelliman.jpeg","height":741,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=719661242448883440","thumbnailHeight":277,"thumbnailWidth":280,"base64Encoding":null,"name":"American
+        traditional hear tattoo by Mark Jelliman","title":"American traditional heart
+        tattoo by Mark Jelliman - Tattoogrid.net","provider":{"name":"tattoogrid","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"http://tattoogrid.net/american-traditional-heart-tattoo-by-mark-jelliman/"},{"url":"https://www.flowernifty.com/wp-content/uploads/2020/05/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose.jpg","height":620,"width":620,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4951329656910860008","thumbnailHeight":155,"thumbnailWidth":155,"base64Encoding":null,"name":"Traditional
+        American Rose Tattoo Design For Sleeve","title":"Traditional American Rose
+        Tattoo Design For Sleeve - american traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose/"},{"url":"https://media1.popsugar-assets.com/files/thumbor/KStqYLiLURr0Lb-8Gi-GKcuiFxk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/23/829/n/1922195/c78f1ac0_edit_img_image_2829728_1463440500_Traditional-American-Dishes/i/Traditional-American-Dishes.jpg","height":2048,"width":2048,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7991624177379213672","thumbnailHeight":256,"thumbnailWidth":256,"base64Encoding":null,"name":"","title":"Mashed
+        Potatoes | Traditional American Dishes | POPSUGAR Food Photo 7","provider":{"name":"popsugar-assets","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.popsugar.com/food/photo-gallery/13400225/image/13400236/Mashed-Potatoes?stream_view=1"}]}'
+  recorded_at: Sun, 04 Jun 2023 20:35:49 GMT
+recorded_with: VCR 6.1.0
