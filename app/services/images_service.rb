@@ -1,6 +1,6 @@
 class ImagesService
   def get_images(search)
-    get_url("/api/Search/ImageSearchAPI?q=#{search}&pageNumber=1&pageSize=5&autoCorrect=true")
+    get_url("/api/Search/ImageSearchAPI?q=#{search}&pageNumber=1&pageSize=15&autoCorrect=true")
   end
 
   def get_url(url)
