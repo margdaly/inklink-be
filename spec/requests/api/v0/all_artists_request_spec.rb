@@ -33,9 +33,6 @@ RSpec.describe "Api::V0::Artists", type: :request do
 
         expect(artist[:attributes]).to have_key(:pricing)
         expect(artist[:attributes][:pricing]).to be_a(String)
-
-        expect(artist[:attributes]).to have_key(:contact_info)
-        expect(artist[:attributes][:contact_info]).to be_a(String)
       end
     end
   end

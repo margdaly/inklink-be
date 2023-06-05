@@ -8,8 +8,7 @@ RSpec.describe 'Artists API', type: :request do
                                password: "password",
                                password_confirmation: "password",
                                styles: ["American Traditional", "Watercolor"],
-                               pricing: "$",
-                               contact_info: "666-867-5309")
+                               pricing: "$")
 
       get "/api/v0/artists/#{artist.id}"
 
@@ -29,8 +28,6 @@ RSpec.describe 'Artists API', type: :request do
       expect(json[:data][:attributes][:styles]).to eq(artist.styles)
       expect(json[:data][:attributes]).to have_key(:pricing)
       expect(json[:data][:attributes][:pricing]).to eq(artist.pricing)
-      expect(json[:data][:attributes]).to have_key(:contact_info)
-      expect(json[:data][:attributes][:contact_info]).to eq(artist.contact_info)
     end
 
     it 'sad path: returns a 404 status if artist is not found' do

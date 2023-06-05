@@ -42,6 +42,6 @@ class Api::V0::ArtistsController < ApplicationController
   end
 
   def artist_params
-    params.require(:artist).permit(:name, :email, :password, :password_confirmation, :pricing, :contact_info, :styles => [])
+    params.require(:artist).permit(:name, :email, :password, :password_confirmation, :pricing, :styles => [])
   end
 end

@@ -8,8 +8,7 @@ RSpec.describe 'Artists API', type: :request do
                         "password": "password",
                         "password_confirmation": "password",
                         "styles": ["American Traditional", "Watercolor"],
-                        "pricing": "$",
-                        "contact_info": "666-867-5309"
+                        "pricing": "$"
                         })
 
       headers = { "CONTENT_TYPE" => "application/json" }
@@ -24,7 +23,6 @@ RSpec.describe 'Artists API', type: :request do
       expect(created_artist.email).to eq(artist_params[:email])
       expect(created_artist.styles).to eq(artist_params[:styles])
       expect(created_artist.pricing).to eq(artist_params[:pricing])
-      expect(created_artist.contact_info).to eq(artist_params[:contact_info])
     end
 
     it 'sad path: returns an error is a required attribute is missing' do
@@ -45,7 +43,7 @@ RSpec.describe 'Artists API', type: :request do
       json = JSON.parse(response.body, symbolize_names: true)
 
       expect(json).to have_key(:error)
-      expect(json[:error]).to eq("Validation failed: Pricing can't be blank, Contact info can't be blank")
+      expect(json[:error]).to eq("Validation failed: Pricing can't be blank")
     end
   end
 end
