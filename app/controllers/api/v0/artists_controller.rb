@@ -11,6 +11,10 @@ class Api::V0::ArtistsController < ApplicationController
     render json: ErrorSerializer.new(error), status: 400
   end
 
+  def index
+    render json: ArtistSerializer.new(Artist.all)
+  end
+
   def show
     render json: ArtistSerializer.new(@artist)
   end
