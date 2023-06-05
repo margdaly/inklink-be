@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v0 do
-      resources :users, only: [:show, :create, :update] do
+      resources :users do
         get '/search', to: 'search#index'
       end
       resources :artists

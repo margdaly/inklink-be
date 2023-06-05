@@ -1,10 +1,10 @@
 class Api::V0::UsersController < ApplicationController
+  before_action :set_user, only: %i[show update destroy]
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
   rescue_from ActiveRecord::RecordInvalid, with: :render_invalid_response
 
   def show
-    user = User.find(params[:id])
-    render json: UserSerializer.new(user)
+    render json: UserSerializer.new(@user)
   end
 
   def create
@@ -12,10 +12,20 @@ class Api::V0::UsersController < ApplicationController
     render json: UserSerializer.new(user), status: 201
   end
 
+  def update
+    @user.update!(user_params)
+
+    render json: UserSerializer.new(@user), status: 200
+  end
+
   private
 
   def user_params
     params.require(:user).permit(:name, :city, :email, :password_digest)
+  end
+
+  def set_user
+    @user = User.find(params[:id])
   end
 
   def render_not_found_response(error)
