@@ -3,9 +3,17 @@ require 'rails_helper'
 RSpec.describe "Api::V0::Artists", type: :request do
   describe "GET /api/v0/artists" do
     it 'returns all artists' do
-      create_list(:artist, 5)
 
-      get '/api/v0/artists'
+      5.times do
+        create(:artist, styles: ["american traditional", "watercolor"])
+      end
+
+      no_style = create(:artist, styles: ["japanese traditional"])
+
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+
+      style = { style: 'american traditional' }
+      get '/api/v0/artists', headers: headers, params: style
 
       expect(response).to be_successful
 
