@@ -18,6 +18,10 @@ class Api::V0::UsersController < ApplicationController
     render json: UserSerializer.new(@user), status: 200
   end
 
+  def destroy
+    @user.destroy
+  end
+
   private
 
   def user_params
