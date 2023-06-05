@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       resources :users, only: [:show, :create, :update] do
         get '/search', to: 'search#index'
       end
-      resources :artists, only: [:show, :create, :update]
+      resources :artists, only: [:show, :create, :update, :destroy]
 
       get '/discover', to: 'discover#index'
     end
