@@ -8,4 +8,15 @@ RSpec.describe Artist, type: :model do
     it  { should validate_presence_of(:styles) }
     it  { should validate_presence_of(:pricing) }
   end
+
+  describe 'artists_with_sstyle' do
+    it 'returns a list of artists that have a specific style' do
+      artist_1 = create(:artist, styles: ["American Traditional", "Watercolor"])
+      artist_2 = create(:artist, styles: ["American Traditional", "Black and Grey"])
+      artist_3 = create(:artist, styles: ["Watercolor", "Dragon Tats"])
+
+      expect(Artist.artists_with_style("American Traditional")).to eq([artist_1, artist_2])
+      expect(Artist.artists_with_style("Watercolor")).to eq([artist_1, artist_3])
+    end
+  end
 end

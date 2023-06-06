@@ -12,7 +12,9 @@ class Api::V0::ArtistsController < ApplicationController
   end
 
   def index
-    render json: ArtistSerializer.new(Artist.all)
+    artists = Artist.artists_with_style(params[:style])
+
+    render json: ArtistSerializer.new(artists)
   end
 
   def show
@@ -36,7 +38,6 @@ class Api::V0::ArtistsController < ApplicationController
   end
 
   private
-
   def set_artist
     @artist = Artist.find(params[:id])
   end
