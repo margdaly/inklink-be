@@ -12,8 +12,8 @@ class Api::V0::ArtistsController < ApplicationController
   end
 
   def index
-    artists = Artist.where("'#{params[:style]}' = ANY (styles)")
-    
+    artists = Artist.artists_with_style(params[:style])
+
     render json: ArtistSerializer.new(artists)
   end
 
