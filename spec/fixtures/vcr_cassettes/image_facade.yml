@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
+    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
     body:
       encoding: US-ASCII
       string: ''
     headers:
       X-Rapidapi-Key:
-      - e63381300emsh2aad7a75e0cbb5cp18e5c4jsn1946e269d0a3
+      - X-RapidAPI-Key
       X-Rapidapi-Host:
-      - contextualwebsearch-websearch-v1.p.rapidapi.com
+      - X-RapidAPI-Host
       User-Agent:
       - Faraday v2.7.5
       Accept-Encoding:
@@ -23,11 +23,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 04 Jun 2023 20:35:36 GMT
+      - Tue, 06 Jun 2023 23:53:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2079'
+      - '2081'
       Connection:
       - keep-alive
       Vary:
@@ -35,9 +35,9 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '94'
+      - '99'
       X-Ratelimit-Requests-Reset:
-      - '71055'
+      - '59182'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -46,7 +46,7 @@ http_interactions:
       - AWS - us-west-2
     body:
       encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
         Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
         American Traditional Tattoo Designs","title":"Top 70 American Traditional
         Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
@@ -72,18 +72,18 @@ http_interactions:
         American Rose Tattoo Design For Sleeve","title":"Traditional American Rose
         Tattoo Design For Sleeve - american traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose/"},{"url":"https://media1.popsugar-assets.com/files/thumbor/KStqYLiLURr0Lb-8Gi-GKcuiFxk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/23/829/n/1922195/c78f1ac0_edit_img_image_2829728_1463440500_Traditional-American-Dishes/i/Traditional-American-Dishes.jpg","height":2048,"width":2048,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7991624177379213672","thumbnailHeight":256,"thumbnailWidth":256,"base64Encoding":null,"name":"","title":"Mashed
         Potatoes | Traditional American Dishes | POPSUGAR Food Photo 7","provider":{"name":"popsugar-assets","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.popsugar.com/food/photo-gallery/13400225/image/13400236/Mashed-Potatoes?stream_view=1"}]}'
-  recorded_at: Sun, 04 Jun 2023 20:35:36 GMT
+  recorded_at: Tue, 06 Jun 2023 23:53:29 GMT
 - request:
     method: get
-    uri: https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
+    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
     body:
       encoding: US-ASCII
       string: ''
     headers:
       X-Rapidapi-Key:
-      - e63381300emsh2aad7a75e0cbb5cp18e5c4jsn1946e269d0a3
+      - X-RapidAPI-Key
       X-Rapidapi-Host:
-      - contextualwebsearch-websearch-v1.p.rapidapi.com
+      - X-RapidAPI-Host
       User-Agent:
       - Faraday v2.7.5
       Accept-Encoding:
@@ -96,11 +96,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 04 Jun 2023 20:35:39 GMT
+      - Tue, 06 Jun 2023 23:53:36 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2079'
+      - '2081'
       Connection:
       - keep-alive
       Vary:
@@ -108,9 +108,9 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '93'
+      - '98'
       X-Ratelimit-Requests-Reset:
-      - '71052'
+      - '59175'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -119,7 +119,7 @@ http_interactions:
       - AWS - us-west-2
     body:
       encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
         Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
         American Traditional Tattoo Designs","title":"Top 70 American Traditional
         Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
@@ -145,18 +145,18 @@ http_interactions:
         American Rose Tattoo Design For Sleeve","title":"Traditional American Rose
         Tattoo Design For Sleeve - american traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose/"},{"url":"https://media1.popsugar-assets.com/files/thumbor/KStqYLiLURr0Lb-8Gi-GKcuiFxk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/23/829/n/1922195/c78f1ac0_edit_img_image_2829728_1463440500_Traditional-American-Dishes/i/Traditional-American-Dishes.jpg","height":2048,"width":2048,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7991624177379213672","thumbnailHeight":256,"thumbnailWidth":256,"base64Encoding":null,"name":"","title":"Mashed
         Potatoes | Traditional American Dishes | POPSUGAR Food Photo 7","provider":{"name":"popsugar-assets","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.popsugar.com/food/photo-gallery/13400225/image/13400236/Mashed-Potatoes?stream_view=1"}]}'
-  recorded_at: Sun, 04 Jun 2023 20:35:38 GMT
+  recorded_at: Tue, 06 Jun 2023 23:53:36 GMT
 - request:
     method: get
-    uri: https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
+    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=traditional%20american
     body:
       encoding: US-ASCII
       string: ''
     headers:
       X-Rapidapi-Key:
-      - e63381300emsh2aad7a75e0cbb5cp18e5c4jsn1946e269d0a3
+      - X-RapidAPI-Key
       X-Rapidapi-Host:
-      - contextualwebsearch-websearch-v1.p.rapidapi.com
+      - X-RapidAPI-Host
       User-Agent:
       - Faraday v2.7.5
       Accept-Encoding:
@@ -169,11 +169,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 04 Jun 2023 20:35:42 GMT
+      - Tue, 06 Jun 2023 23:53:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2079'
+      - '2080'
       Connection:
       - keep-alive
       Vary:
@@ -181,9 +181,9 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '92'
+      - '97'
       X-Ratelimit-Requests-Reset:
-      - '71049'
+      - '59173'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -192,7 +192,7 @@ http_interactions:
       - AWS - us-west-2
     body:
       encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1020,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
+      string: '{"_type":"images","totalCount":1029,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
         Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
         American Traditional Tattoo Designs","title":"Top 70 American Traditional
         Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
@@ -218,5 +218,5 @@ http_interactions:
         American Rose Tattoo Design For Sleeve","title":"Traditional American Rose
         Tattoo Design For Sleeve - american traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose/"},{"url":"https://media1.popsugar-assets.com/files/thumbor/KStqYLiLURr0Lb-8Gi-GKcuiFxk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/23/829/n/1922195/c78f1ac0_edit_img_image_2829728_1463440500_Traditional-American-Dishes/i/Traditional-American-Dishes.jpg","height":2048,"width":2048,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7991624177379213672","thumbnailHeight":256,"thumbnailWidth":256,"base64Encoding":null,"name":"","title":"Mashed
         Potatoes | Traditional American Dishes | POPSUGAR Food Photo 7","provider":{"name":"popsugar-assets","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/traditional%20american/images","webpageUrl":"https://www.popsugar.com/food/photo-gallery/13400225/image/13400236/Mashed-Potatoes?stream_view=1"}]}'
-  recorded_at: Sun, 04 Jun 2023 20:35:42 GMT
+  recorded_at: Tue, 06 Jun 2023 23:53:38 GMT
 recorded_with: VCR 6.1.0
