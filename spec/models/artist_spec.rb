@@ -16,6 +16,7 @@ RSpec.describe Artist, type: :model do
       artist_3 = create(:artist, styles: ["Watercolor", "Dragon Tats"])
 
       expect(Artist.artists_with_style("American Traditional")).to eq([artist_1, artist_2])
+      expect(Artist.artists_with_style("Watercolor")).to eq([artist_1, artist_3])
     end
   end
 end
