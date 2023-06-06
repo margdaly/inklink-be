@@ -11,6 +11,7 @@ RSpec.describe "Api::V0::Artists", type: :request do
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
       style = { style: 'american traditional' }
+
       get '/api/v0/artists', headers: headers, params: style
 
       expect(response).to be_successful
@@ -40,6 +41,26 @@ RSpec.describe "Api::V0::Artists", type: :request do
         expect(artist[:attributes]).to have_key(:pricing)
         expect(artist[:attributes][:pricing]).to be_a(String)
       end
+    end
+
+    it 'sad path: it returns no artist if no artist matches the search' do
+      5.times do
+        create(:artist, styles: ["american traditional", "watercolor"])
+      end
+
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+
+      style = { style: 'geometric' }
+
+      get '/api/v0/artists', headers: headers, params: style
+
+      expect(response).to be_successful
+
+      json = JSON.parse(response.body, symbolize_names: true)
+
+      expect(json).to have_key(:data)
+      expect(json[:data]).to be_an(Array)
+      expect(json[:data]).to be_empty
     end
   end
 end
