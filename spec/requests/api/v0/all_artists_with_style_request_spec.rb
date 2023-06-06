@@ -8,8 +8,6 @@ RSpec.describe "Api::V0::Artists", type: :request do
         create(:artist, styles: ["american traditional", "watercolor"])
       end
 
-      no_style = create(:artist, styles: ["japanese traditional"])
-
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
       style = { style: 'american traditional' }
