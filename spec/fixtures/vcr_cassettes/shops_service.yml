@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Authorization:
-      - fsq3hA3GAkvIU8uL3gOcKy0i5yewtx9ujjfQzvN7Xj0njy4=
+      - Authorization
       User-Agent:
       - Faraday v2.7.5
       Accept-Encoding:
@@ -32,29 +32,29 @@ http_interactions:
       Server:
       - Finatra
       X-Fsq-Request-Id:
-      - 647cf6644ae2c655da7bcd4a
+      - 647fc70a7901561aaedfaa46
       X-Ratelimit-Path:
       - "/v3/places/search"
       X-Ratelimit-Limit:
       - '360000'
       X-Ratelimit-Reset:
-      - '1685911715'
+      - '1686096540'
       X-Ratelimit-Remaining:
-      - '359994'
+      - '359992'
       Accept-Ranges:
       - bytes
       Date:
-      - Sun, 04 Jun 2023 20:39:00 GMT
+      - Tue, 06 Jun 2023 23:53:47 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8258-DEN
+      - cache-den8245-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1685911140.262109,VS0,VE299
+      - S1686095627.929553,VS0,VE164
       Vary:
       - Origin
     body:
@@ -108,5 +108,5 @@ http_interactions:
         Springs-Pueblo","formatted_address":"603 S Nevada Ave, Colorado Springs, CO
         80903","locality":"Colorado Springs","postcode":"80903","region":"CO"},"name":"Self
         Made Tattoo and Piercing","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
-  recorded_at: Sun, 04 Jun 2023 20:39:00 GMT
+  recorded_at: Tue, 06 Jun 2023 23:53:47 GMT
 recorded_with: VCR 6.1.0
