@@ -9,7 +9,7 @@ RSpec.describe Artist, type: :model do
     it  { should validate_presence_of(:pricing) }
   end
 
-  describe 'artists_with_sstyle' do
+  describe 'artists_with_style' do
     it 'returns a list of artists that have a specific style' do
       artist_1 = create(:artist, styles: ["American Traditional", "Watercolor"])
       artist_2 = create(:artist, styles: ["American Traditional", "Black and Grey"])

@@ -5,11 +5,10 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v0 do
-      resources :users do
-        get '/search', to: 'search#index'
-      end
+      resources :users
       resources :artists
-
+      
+      get '/search', to: 'search#index'
       get '/discover', to: 'discover#index'
     end
   end
