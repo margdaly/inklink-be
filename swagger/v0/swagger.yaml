@@ -1,0 +1,118 @@
+openapi: 3.0.3
+info:
+  title: InkLink API
+  description: This API provides a way to manage tattoo artists.
+  version: 0.0.0
+
+paths:
+  /api/v0/artists:
+    get:
+      summary: Returns a list of artists by style.
+      parameters:
+        - name: style
+          in: query
+          required: false
+          schema:
+            type: string
+          description: The style of the artist to filter by. Choices ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"]
+      responses:
+        200:
+          description: A list of artists.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Artist'
+    post:
+      summary: Creates a new artist.
+      parameters:
+        - name: artist details
+          in: body
+          required: true
+          schema:
+            $ref: '#/components/schemas/Artist'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+      responses:
+        201:
+          description: The artist was created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+  
+  /api/v0/artists/{id}:
+    get:
+      summary: Returns an artist by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the artist to retrieve.
+      responses:
+        200:
+          description: The artist.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+    
+    patch:
+      summary: Updates an artist by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the artist to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+      responses:
+        200:
+          description: The artist was updated successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Artist'
+    
+    delete:
+      summary: Deletes an artist by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the artist to delete.
+
+components:
+  schemas:
+    Artist:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        password_confirmation:
+          type: string
+        styles:
+          type: array
+          items:
+            type: string
+        pricing:
+          type: string          
