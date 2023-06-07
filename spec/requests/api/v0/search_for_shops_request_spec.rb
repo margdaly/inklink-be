@@ -41,8 +41,9 @@ RSpec.describe 'SearchForShops' do
 
         shops = JSON.parse(response.body, symbolize_names: true)
 
-        expect(shops[:data]).to be_an(Array)
-        expect(shops[:data]).to be_empty
+        expect(shops).to be_an(Hash)
+        expect(shops).to have_key(:error) 
+        expect(shops[:error]).to eq('No city entered')
       end
     end
   end
