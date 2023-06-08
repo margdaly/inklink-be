@@ -1,16 +1,19 @@
 require 'rails_helper'
 
 RSpec.describe 'Artists API', type: :request do
-  describe 'GET /api/v0/artist/:id' do
+  describe 'GET /api/v0/artist' do
     it 'returns an artist' do
-      artist = create(:artist, name: "Bob Ross",
-                               email: "bobrossrules@gmail.com",
-                               password: "password",
-                               password_confirmation: "password",
-                               styles: ["American Traditional", "Watercolor"],
-                               pricing: "$")
+      artist = create(:artist, name: 'Bob Ross',
+                               email: 'bobrossrules@gmail.com',
+                               password: 'password',
+                               password_confirmation: 'password',
+                               styles: ['American Traditional', 'Watercolor'],
+                               pricing: '$')
 
-      get "/api/v0/artists/#{artist.id}"
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+      email_params = { email: 'bobrossrules@gmail.com' }
+
+      get '/api/v0/artist', headers: headers, params: email_params
 
       json = JSON.parse(response.body, symbolize_names: true)
 
@@ -31,7 +34,10 @@ RSpec.describe 'Artists API', type: :request do
     end
 
     it 'sad path: returns a 404 status if artist is not found' do
-      get '/api/v0/artists/100000'
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+      email_params = { email: 'bad_artistemailcom' }
+
+      get '/api/v0/artist', headers: headers, params: email_params
 
       expect(response).to_not be_successful
       expect(response.status).to eq(404)
@@ -41,7 +47,7 @@ RSpec.describe 'Artists API', type: :request do
       expect(failure).to be_a(Hash)
       expect(failure).to have_key(:error)
 
-      expect(failure[:error]).to eq("Couldn't find Artist with 'id'=100000")
+      expect(failure[:error]).to eq("Couldn't find Artist with [WHERE \"artists\".\"email\" = $1]")
     end
   end
 end
