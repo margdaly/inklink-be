@@ -3,15 +3,15 @@ require 'rails_helper'
 RSpec.describe 'Artists API', type: :request do
   describe 'POST /api/v0/artists' do
     it 'creates an artist when all attributes are present' do
-      artist_params = ({ "name": "Bob Ross",
-                        "email": "bobrossrules@gmail.com",
-                        "password": "password",
-                        "password_confirmation": "password",
-                        "styles": ["American Traditional", "Watercolor"],
-                        "pricing": "$"
-                        })
+      artist_params = ({ 'name': 'Bob Ross',
+                         'email': 'bobrossrules@gmail.com',
+                         'password': 'password',
+                         'password_confirmation': 'password',
+                         'styles': ['American Traditional', 'Watercolor'],
+                         'pricing': '$'
+                      })
 
-      headers = { "CONTENT_TYPE" => "application/json" }
+      headers = { 'CONTENT_TYPE' => 'application/json' }
 
       post '/api/v0/artists', headers: headers, params: JSON.generate(artist: artist_params)
 
@@ -26,14 +26,14 @@ RSpec.describe 'Artists API', type: :request do
     end
 
     it 'sad path: returns an error is a required attribute is missing' do
-      artist_params = ({ "name": "Bob Ross",
-        "email": "bobrossrules@gmail.com",
-        "password": "password",
-        "password_confirmation": "password",
-        "styles": ["American Traditional", "Watercolor"]
-        })
+      artist_params = ({ 'name': 'Bob Ross',
+                         'email': 'bobrossrules@gmail.com',
+                         'password': 'password',
+                         'password_confirmation': 'password',
+                         'styles': ['American Traditional', 'Watercolor']
+                      })
 
-      headers = { "CONTENT_TYPE" => "application/json" }
+      headers = { 'CONTENT_TYPE' => 'application/json' }
 
       post '/api/v0/artists', headers: headers, params: JSON.generate(artist: artist_params)
 
@@ -44,6 +44,23 @@ RSpec.describe 'Artists API', type: :request do
 
       expect(json).to have_key(:error)
       expect(json[:error]).to eq("Validation failed: Pricing can't be blank")
+    end
+
+    it 'sad path: returns an error if an email is invalid' do
+      artist_params = ({ 'name': 'Bob Ross',
+                         'email': 'bobrossrulesgmailcom',
+                         'password': 'password',
+                         'password_confirmation': 'password',
+                         'styles': ['American Traditional', 'Watercolor'],
+                         'pricing': '$'
+                      })
+
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+
+      post '/api/v0/artists', headers: headers, params: JSON.generate(artist: artist_params)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(400)
     end
   end
 end
