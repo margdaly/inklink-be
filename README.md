@@ -97,7 +97,18 @@ pricing	string
       "string"
     ],
     "pricing": "string"
-  }
+  },
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  },
+ ...
 ]
 ```
 **Responses**
