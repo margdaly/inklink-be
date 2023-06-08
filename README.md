@@ -1,19 +1,23 @@
-# InkLink BE
-
+# [InkLink](inklink.herokuapp.com)
+![BuiltWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
 ![](https://github.com/margdaly/inklink-be/blob/main/Ink%20Link.png)
 
 ### Get ***Linked*** for your next ***Ink!***
 **InkLink** is an app helping people find curated artists and local tattoo parlors that fit their tattoo style in their area.
 Don't know what style best fits you? Try our *Discover Style* feature to help best match you with the right style and the best artist to get you ***inked***.
 
+Experience InkLink wherever you are! Try us on the web or your mobile device! [inklink.herokuapp.com](inklink.herokuapp.com)
+
 InkLink is the Consultancy group project from Turing School of Software and Design's mod three backend program. Read more: https://backend.turing.edu/module3/projects/consultancy/
 
-## Angel Byun [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angel-byun) 
-## Brandon Johnson [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandon-j-94b740b2/)
-## Brian Guthrie [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-guthrie-1bba73232/)
-## Margaret Daly [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marg-aret-daly)
-
-
+# Contributers
+---
+## Angel Byun [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angel-byun) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/angelbyun)
+## Brandon Johnson [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandon-j-94b740b2/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenicillin)
+## Brian Guthrie [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-guthrie-1bba73232/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Brianisthebest)
+## Margaret Daly [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marg-aret-daly) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/margdaly)
+---
+---
 
 ## Built With
 
