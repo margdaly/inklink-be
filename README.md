@@ -6,7 +6,7 @@
 **InkLink** is an app helping people find curated artists and local tattoo parlors that fit their tattoo style in their area.
 Don't know what style best fits you? Try our *Discover Style* feature to help best match you with the right style and the best artist to get you ***inked***.
 
-Experience InkLink wherever you are! Try us on the web or your mobile device! [inklink.herokuapp.com](inklink.herokuapp.com)
+Experience InkLink wherever you are! Try us on the web or your mobile device! [inklink.herokuapp.com](https://inklink.herokuapp.com)
 
 InkLink is the Consultancy group project from Turing School of Software and Design's mod three backend program. Read more: https://backend.turing.edu/module3/projects/consultancy/
 - [InkLink BE](https://github.com/margday/inklink-be)
