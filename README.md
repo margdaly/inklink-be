@@ -123,7 +123,7 @@ pricing	string
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to retrieve. |
+| **email**, *required*string(path)  | The email of the artist to retrieve. |
 
 **Responses**
 | Code | Description |
@@ -148,7 +148,7 @@ pricing	string
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to update. |
+| **email**, *required*string(path)  | The email of the artist to update. |
 
 **Responses**
 | Code | Description |
@@ -173,7 +173,7 @@ pricing	string
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to delete. |
+| **email**, *required*string(path)  | The email of the artist to delete. |
 
 ### ` GET 'api/v0/search' `
 **Parameters**
@@ -190,7 +190,7 @@ pricing	string
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to delete. |
+| **email**, *required*string(path)  | The email of the artist to delete. |
 
 ### ` GET 'api/v0/search' `
 **Parameters**
