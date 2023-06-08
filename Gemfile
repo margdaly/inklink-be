@@ -43,6 +43,7 @@ gem 'jsonapi-serializer'
 gem 'reline', '~> 0.3.1'
 gem 'rswag-api'
 gem 'rswag-ui'
+gem 'email_validator'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
