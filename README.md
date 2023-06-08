@@ -9,6 +9,8 @@ Don't know what style best fits you? Try our *Discover Style* feature to help be
 Experience InkLink wherever you are! Try us on the web or your mobile device! [inklink.herokuapp.com](inklink.herokuapp.com)
 
 InkLink is the Consultancy group project from Turing School of Software and Design's mod three backend program. Read more: https://backend.turing.edu/module3/projects/consultancy/
+- [InkLink BE](https://github.com/margday/inklink-be)
+- [InkLink FE](https://github.com/brenicillin/inklink_fe)
 
 # Contributors
 ---
@@ -18,9 +20,202 @@ InkLink is the Consultancy group project from Turing School of Software and Desi
 ## Margaret Daly [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marg-aret-daly) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/margdaly)
 ---
 ---
+# Documentaion
+[Ink Link API Documentation](https://inklink-be.herokuapp.com/api-docs/index.html)
+
+## Schema
+```
+Artist{
+name	string
+email	string
+password	string
+password_confirmation	string
+styles	[...]
+pricing	string
+}
+```
+
+## Available Endpoints
+
+### ` GET 'api/v0/artists' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| style, string(query)  | The style of the artist to filter by. Choices ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"] |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of artists |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+
+### ` POST 'api/v0/artists' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **artist details**, *required*(body)  | example request body |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 201 | The artist was created successfully. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` GET 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to retrieve. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | The artist. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` PATCH 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to update. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | The artist was updated successfully. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` DELETE 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to delete. |
+
+### ` GET 'api/v0/search' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **city**, *required*string  | The city to search for shops. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of shops. |
+
+### ` GET 'api/v0/discover' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to delete. |
+
+### ` GET 'api/v0/search' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **discover**, *required*string  | The style must be from ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"]. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of image urls. |
+
+
+## Setup
+Fork this repository.
+Clone your fork.
+From the command line, install gems and set up your DB:
+```
+bundle install
+bundle update
+rails db:{drop,create,migrate,seed}
+```
+Run the test suite with `bundle exec rspec`.
 
 ## Built With
-
 **Backend**
 * ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)  ![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -32,28 +227,6 @@ InkLink is the Consultancy group project from Turing School of Software and Desi
 
 **Planning and Workflow**
 * ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-
-
-
-## Installation
-## Development setup
-Mac: 
-
-Fork this repository.
-Clone your fork.
-From the command line, install gems and set up your DB:
-
-```
-bundle install
-bundle update
-rails db:{drop,create,migrate,seed}
-```
-
-Run the test suite with `bundle exec rspec`.
-
-
-
-
 
 
 <!-- Markdown link & img dfn's -->
