@@ -79,7 +79,7 @@ pricing	string
 ]
 ```
 
-### ` POST 'api/v0/artists' `
+### ` POST 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
@@ -119,7 +119,7 @@ pricing	string
 }
 ```
 
-### ` GET 'api/v0/artists/:id' `
+### ` GET 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
@@ -144,7 +144,7 @@ pricing	string
 }
 ```
 
-### ` PATCH 'api/v0/artists/:id' `
+### ` PATCH 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
@@ -169,7 +169,7 @@ pricing	string
 }
 ```
 
-### ` DELETE 'api/v0/artists/:id' `
+### ` DELETE 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
