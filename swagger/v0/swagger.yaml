@@ -46,16 +46,16 @@ paths:
               schema:
                 $ref: '#/components/schemas/Artist'
   
-  /api/v0/artists/{id}:
+  /api/v0/artist:
     get:
-      summary: Returns an artist by ID.
+      summary: Returns an artist by email.
       parameters:
-        - name: id
-          in: path
+        - name: email
+          in: query
           required: true
           schema:
             type: string
-          description: The ID of the artist to retrieve.
+          description: The email of the artist to retrieve.
       responses:
         200:
           description: The artist.
@@ -65,14 +65,14 @@ paths:
                 $ref: '#/components/schemas/Artist'
     
     patch:
-      summary: Updates an artist by ID.
+      summary: Updates an artist by email.
       parameters:
-        - name: id
-          in: path
+        - name: email
+          in: query
           required: true
           schema:
             type: string
-          description: The ID of the artist to update.
+          description: The email of the artist to update.
       requestBody:
         required: true
         content:
@@ -88,14 +88,14 @@ paths:
                 $ref: '#/components/schemas/Artist'
     
     delete:
-      summary: Deletes an artist by ID.
+      summary: Deletes an artist by email.
       parameters:
-        - name: id
-          in: path
+        - name: email
+          in: query
           required: true
           schema:
             type: string
-          description: The ID of the artist to delete.
+          description: The email of the artist to delete.
 
   /api/v0/search:
     get:

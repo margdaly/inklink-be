@@ -79,7 +79,7 @@ pricing	string
 ]
 ```
 
-### ` POST 'api/v0/artists' `
+### ` POST 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
@@ -97,7 +97,18 @@ pricing	string
       "string"
     ],
     "pricing": "string"
-  }
+  },
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  },
+ ...
 ]
 ```
 **Responses**
@@ -119,11 +130,11 @@ pricing	string
 }
 ```
 
-### ` GET 'api/v0/artists/:id' `
+### ` GET 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to retrieve. |
+| **email**, *required*string(path)  | The email of the artist to retrieve. |
 
 **Responses**
 | Code | Description |
@@ -144,11 +155,11 @@ pricing	string
 }
 ```
 
-### ` PATCH 'api/v0/artists/:id' `
+### ` PATCH 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to update. |
+| **email**, *required*string(path)  | The email of the artist to update. |
 
 **Responses**
 | Code | Description |
@@ -169,11 +180,11 @@ pricing	string
 }
 ```
 
-### ` DELETE 'api/v0/artists/:id' `
+### ` DELETE 'api/v0/artist' `
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to delete. |
+| **email**, *required*string(path)  | The email of the artist to delete. |
 
 ### ` GET 'api/v0/search' `
 **Parameters**
@@ -190,7 +201,7 @@ pricing	string
 **Parameters**
 | **Name** | **Description** |
 | ----------- | ----------- |
-| **id**, *required*string(path)  | The ID of the artist to delete. |
+| **email**, *required*string(path)  | The email of the artist to delete. |
 
 ### ` GET 'api/v0/search' `
 **Parameters**

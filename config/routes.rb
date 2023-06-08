@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v0 do
-      resources :users
       resources :artists, only: %i[index create]
 
       get '/artist', to: 'artists#show'
