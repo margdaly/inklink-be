@@ -23,6 +23,187 @@ InkLink is the Consultancy group project from Turing School of Software and Desi
 # Documentaion
 [Ink Link API Documentation](https://inklink-be.herokuapp.com/api-docs/index.html)
 
+## Schema
+```
+Artist{
+name	string
+email	string
+password	string
+password_confirmation	string
+styles	[...]
+pricing	string
+}
+```
+
+## Available Endpoints
+
+### ` GET 'api/v0/artists' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| style, string(query)  | The style of the artist to filter by. Choices ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"] |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of artists |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+
+### ` POST 'api/v0/artists' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **artist details**, *required*(body)  | example request body |
+
+*Example*
+```
+[
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+    "styles": [
+      "string"
+    ],
+    "pricing": "string"
+  }
+]
+```
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 201 | The artist was created successfully. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` GET 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to retrieve. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | The artist. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` PATCH 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to update. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | The artist was updated successfully. |
+
+*Example*
+```
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "password_confirmation": "string",
+  "styles": [
+    "string"
+  ],
+  "pricing": "string"
+}
+```
+
+### ` DELETE 'api/v0/artists/:id' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to delete. |
+
+### ` GET 'api/v0/search' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **city**, *required*string  | The city to search for shops. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of shops. |
+
+### ` GET 'api/v0/discover' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **id**, *required*string(path)  | The ID of the artist to delete. |
+
+### ` GET 'api/v0/search' `
+**Parameters**
+| **Name** | **Description** |
+| ----------- | ----------- |
+| **discover**, *required*string  | The style must be from ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"]. |
+
+**Responses**
+| Code | Description |
+| ----------- | ----------- |
+| 200 | A list of image urls. |
+
+
 ## Setup
 Fork this repository.
 Clone your fork.
