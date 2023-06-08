@@ -97,6 +97,34 @@ paths:
             type: string
           description: The ID of the artist to delete.
 
+  /api/v0/search:
+    get:
+      summary: Returns a list of nearby shops.
+      parameters:
+        - name: city
+          in: query
+          required: true
+          schema:
+            type: string
+          description: The city to search for shops.
+      responses:
+        200:
+          description: A list of shops.
+
+  /api/v0/discover:
+    get:
+      summary: Returns a list of image urls for a tatto style.
+      parameters:
+        - name: discover
+          in: query
+          required: true
+          schema:
+            type: string
+          description: The style must be from ["Watercolor", "American Traditional", "Geometric", "Script", "Black and Gray", "Realism", "Tribal", "Chicano", "Irezumi", "New School"].
+      responses:
+        200:
+          description: A list of image urls.
+
 components:
   schemas:
     Artist:
