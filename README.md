@@ -1,4 +1,4 @@
-# [InkLink](inklink.herokuapp.com)
+# [InkLink](https://inklink.herokuapp.com)
 ![BuiltWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
 ![](https://github.com/margdaly/inklink-be/blob/main/Ink%20Link.png)
 
