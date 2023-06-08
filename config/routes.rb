@@ -8,8 +8,12 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v0 do
       resources :users
-      resources :artists
-      
+      resources :artists, only: %i[index create]
+
+      get '/artist', to: 'artists#show'
+      patch '/artist', to: 'artists#update'
+      delete '/artist', to: 'artists#destroy'
+
       get '/search', to: 'search#index'
       get '/discover', to: 'discover#index'
     end
