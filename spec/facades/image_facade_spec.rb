@@ -8,7 +8,7 @@ RSpec.describe ImageFacade do
   end
 
   describe 'get_images' do
-    it 'returns list of 5 images', :vcr do
+    it 'returns list of 5 images', vcr: { record: :new_episodes } do
       VCR.use_cassette('image_facade') do
         image_facade = ImageFacade.new
 
