@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://X-RapidAPI-Host/api/Search/ImageSearchAPI?autoCorrect=true&pageNumber=1&pageSize=15&q=american%20traditional
+    uri: https://X-RapidAPI-Host/images/search?count=15&q=american%20traditional
     body:
       encoding: US-ASCII
       string: ''
@@ -23,21 +23,57 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 06 Jun 2023 23:53:43 GMT
+      - Fri, 21 Jul 2023 17:02:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2080'
+      - '100988'
       Connection:
       - keep-alive
-      Vary:
-      - Accept-Encoding
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Expires:
+      - "-1"
+      Useragentreductionoptout:
+      - A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+      Bingapis-Traceid:
+      - 64baba2e9ce043cc8599bcf7d10ebb39
+      X-Msapi-Userstate:
+      - c2ad
+      Pragma:
+      - no-cache
+      X-Eventid:
+      - 64baba2e9ce043cc8599bcf7d10ebb39
+      Accept-Ch:
+      - Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version,Sec-CH-UA-Mobile,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+      Bingapis-Market:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      P3p:
+      - CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+      X-Search-Responseinfo:
+      - InternalResponseTime=226,MSDatacenter=MWHE01
+      Csp-Billing-Usage:
+      - CognitiveServices.BingSearchV7.Transaction=1
+      X-Content-Type-Options:
+      - nosniff
+      X-Msedge-Ref:
+      - 'Ref A: F6562B8EE7C0462D9CD83EC806BB0AD2 Ref B: BY3EDGE0308 Ref C: 2023-07-21T17:02:38Z'
+      X-Cache:
+      - CONFIG_NOCACHE
+      X-Ms-Region:
+      - West US
+      Apim-Request-Id:
+      - 4ebcdef6-198b-4a1e-9451-adf8d5202400
+      X-Msedge-Clientid:
+      - 2DB6794F13AB60372B646A1A12E761B9
       X-Ratelimit-Requests-Limit:
-      - '100'
+      - '1000'
       X-Ratelimit-Requests-Remaining:
-      - '96'
+      - '986'
       X-Ratelimit-Requests-Reset:
-      - '59168'
+      - '2677265'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -45,32 +81,517 @@ http_interactions:
       X-Rapidapi-Region:
       - AWS - us-west-2
     body:
-      encoding: ASCII-8BIT
-      string: '{"_type":"images","totalCount":1028,"value":[{"url":"https://pipeburn.com/wp-content/uploads/2020/05/American-Traditional.jpg","height":1171,"width":2500,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1701595348427531365","thumbnailHeight":73,"thumbnailWidth":155,"base64Encoding":null,"name":"","title":"American
-        Traditional - Pipeburn","provider":{"name":"pipeburn","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://pipeburn.com/bikeshow/american-traditional/"},{"url":"https://www.trendingtattoo.com/wp-content/uploads/2021/12/Best-American-Traditional-Tattoo-Designs-1.jpg","height":400,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7509152395355637928","thumbnailHeight":149,"thumbnailWidth":281,"base64Encoding":null,"name":"Best
-        American Traditional Tattoo Designs","title":"Top 70 American Traditional
-        Tattoo Ideas And Their Meaning","provider":{"name":"trendingtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.trendingtattoo.com/american-traditional-tattoo/"},{"url":"https://tattoolikethepros.com/wp-content/uploads/2021/10/american-traditional-tattoo.jpg","height":628,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=2551267423205397840","thumbnailHeight":116,"thumbnailWidth":223,"base64Encoding":null,"name":"","title":"34
-        Incredible American Traditional Tattoo Design & Ideas","provider":{"name":"tattoolikethepros","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://tattoolikethepros.com/american-traditional-tattoo/"},{"url":"https://www.glamouradvice.com/wp-content/uploads/American-Traditional-Tattoo-Ideas-with-Meaning.jpg","height":1100,"width":2280,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4103522553700283812","thumbnailHeight":206,"thumbnailWidth":426,"base64Encoding":null,"name":"","title":"15
-        American Traditional Tattoo Ideas With Meaning","provider":{"name":"glamouradvice","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.glamouradvice.com/american-traditional-tattoos/"},{"url":"https://fashionterest.com/wp-content/uploads/2021/07/american-traditional-tattoo-2021-44.jpg","height":683,"width":1024,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=3292843572229698671","thumbnailHeight":170,"thumbnailWidth":254,"base64Encoding":null,"name":"american
-        traditional tattoo 2021","title":"30 American Traditional Tattoo Designs with
-        History","provider":{"name":"fashionterest","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://fashionterest.com/american-traditional-tattoo/"},{"url":"https://www.joanzunigatattoos.com/wp-content/uploads/2021/05/eagle-best-traditional-american-tattoo-nearby-fayetteville-nc.jpg","height":516,"width":1000,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=5285709075063844594","thumbnailHeight":193,"thumbnailWidth":374,"base64Encoding":null,"name":"","title":"eagle-best-traditional-american-tattoo-nearby--fayetteville-nc
-        | Joan Zuniga Tattoo","provider":{"name":"joanzunigatattoos","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.joanzunigatattoos.com/quick-guide-to-traditional-american-tattoo-or-traditional-tattoo-style/eagle-best-traditional-american-tattoo-nearby-fayetteville-nc/"},{"url":"https://www.savedtattoo.com/wp-content/uploads/2021/04/American-Traditional-Tattoo.jpg","height":800,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=5101348616976632332","thumbnailHeight":300,"thumbnailWidth":450,"base64Encoding":null,"name":"","title":"50+
-        American Traditional Tattoo Guide (and Design Ideas) - Saved Tattoo","provider":{"name":"savedtattoo","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.savedtattoo.com/american-traditional-tattoo/"},{"url":"https://www.thetrendspotter.net/wp-content/uploads/2021/03/Traditional-American-Tattoos.jpg","height":450,"width":800,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=1125211940931064371","thumbnailHeight":168,"thumbnailWidth":298,"base64Encoding":null,"name":"Traditional
-        American Tattoos","title":"30 Incredible American Traditional Tattoo Designs
-        - The Trend Spotter","provider":{"name":"thetrendspotter","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.thetrendspotter.net/american-traditional-tattoos/"},{"url":"https://www.flowernifty.com/wp-content/uploads/2020/05/american-traditional-rose-imgur-american-traditional-rose.jpg","height":2141,"width":2126,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4847723962928239745","thumbnailHeight":199,"thumbnailWidth":198,"base64Encoding":null,"name":"American
-        Traditional Rose - Imgur","title":"American Traditional Rose - Imgur - american
-        traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/american-traditional-rose-imgur-american-traditional-rose/"},{"url":"http://inspireartstudio.com/wp-content/uploads/2019/10/free-quilt-block-patterns-library-unique-traditional-american-quilt-patterns.jpg","height":350,"width":350,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=8795056474927544618","thumbnailHeight":65,"thumbnailWidth":65,"base64Encoding":null,"name":"free
-        quilt block patterns library Unique Traditional American Quilt Patterns","title":"free
-        quilt block patterns library Unique Traditional American Quilt Patterns |
-        Quilt Pattern Inspirations","provider":{"name":"inspireartstudio","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"http://inspireartstudio.com/unique-traditional-american-quilt-patterns/free-quilt-block-patterns-library-unique-traditional-american-quilt-patterns/"},{"url":"https://gotohomerepair.com/wp-content/uploads/2016/11/Traditional-American-Dining-Room-and-Kitchen-Combination.jpg","height":800,"width":1200,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7073793263485547892","thumbnailHeight":150,"thumbnailWidth":225,"base64Encoding":null,"name":"Featured
-        Image of Traditional American Dining Room And Kitchen Combination","title":"Traditional
-        American Dining Room And Kitchen Combination #7966 | House Decoration Ideas","provider":{"name":"gotohomerepair","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://gotohomerepair.com/traditional-american-dining-room-and-kitchen-combination/"},{"url":"https://semimd.com/wp-content/uploads/2018/03/Top-10-Traditional-American-Dishes.jpg","height":519,"width":465,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=8167069286292679863","thumbnailHeight":194,"thumbnailWidth":173,"base64Encoding":null,"name":"Top
-        10 Traditional American Dishes","title":"Top 10 Traditional American Dishes
-        - Hambureger, Meatloaf, Hot Dogs","provider":{"name":"semimd","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://semimd.com/top-10-traditional-american-dishes/"},{"url":"http://tattoogrid.net/wp-content/uploads/2019/05/American-traditional-hear-tattoo-by-Mark-Jelliman.jpeg","height":741,"width":750,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=719661242448883440","thumbnailHeight":277,"thumbnailWidth":280,"base64Encoding":null,"name":"American
-        traditional hear tattoo by Mark Jelliman","title":"American traditional heart
-        tattoo by Mark Jelliman - Tattoogrid.net","provider":{"name":"tattoogrid","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"http://tattoogrid.net/american-traditional-heart-tattoo-by-mark-jelliman/"},{"url":"https://www.flowernifty.com/wp-content/uploads/2020/05/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose.jpg","height":620,"width":620,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=4951329656910860008","thumbnailHeight":155,"thumbnailWidth":155,"base64Encoding":null,"name":"Traditional
-        American Rose Tattoo Design For Sleeve","title":"Traditional American Rose
-        Tattoo Design For Sleeve - american traditional rose - Flower Nifty","provider":{"name":"flowernifty","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.flowernifty.com/18-things-you-should-know-before-embarking-on-american-traditional-rose-american-traditional-rose/traditional-american-rose-tattoo-design-for-sleeve-american-traditional-rose/"},{"url":"https://media1.popsugar-assets.com/files/thumbor/KStqYLiLURr0Lb-8Gi-GKcuiFxk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/23/829/n/1922195/c78f1ac0_edit_img_image_2829728_1463440500_Traditional-American-Dishes/i/Traditional-American-Dishes.jpg","height":2048,"width":2048,"thumbnail":"https://rapidapi.usearch.com/api/thumbnail/get?value=7991624177379213672","thumbnailHeight":256,"thumbnailWidth":256,"base64Encoding":null,"name":"","title":"Mashed
-        Potatoes | Traditional American Dishes | POPSUGAR Food Photo 7","provider":{"name":"popsugar-assets","favIcon":"","favIconBase64Encoding":""},"imageWebSearchUrl":"https://usearch.com/search/american%20traditional/images","webpageUrl":"https://www.popsugar.com/food/photo-gallery/13400225/image/13400236/Mashed-Potatoes?stream_view=1"}]}'
-  recorded_at: Tue, 06 Jun 2023 23:53:43 GMT
+      encoding: UTF-8
+      string: '{"_type": "Images", "instrumentation": {"_type": "ResponseInstrumentation"},
+        "readLink": "images\/search?q=american traditional", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=american
+        traditional&FORM=OIIARP", "queryContext": {"originalQuery": "american traditional",
+        "alterationDisplayQuery": "american tradition", "alterationOverrideQuery":
+        "+american traditional", "alterationMethod": "AM_JustChangeIt", "alterationType":
+        "CombinedAlterationsChained"}, "totalEstimatedMatches": 538, "nextOffset":
+        15, "currentOffset": 0, "value": [{"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1C4BF7C423EB52F7C69666&simid=608011273369904703",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.fr18gdopDrOYEI26i1oz2wHaHa&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-48.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "126950 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1080, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 474}, "imageInsightsToken": "ccid_fr18gdop*cp_8270891F89FB06CAF53363B6B599515A*mid_FA41C0FD6DBDABC91B1C4BF7C423EB52F7C69666*simid_608011273369904703*thid_OIP.fr18gdopDrOYEI26i1oz2wHaHa",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 10, "availableSizesCount":
+        6}, "imageId": "FA41C0FD6DBDABC91B1C4BF7C423EB52F7C69666", "accentColor":
+        "9E602D"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1C9216C89EF2DE32DE8093&simid=608049824991615596",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.IWDRxbw9PsIJFS9jE0dwPAHaHa&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-22.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "133530 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1080, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 474}, "imageInsightsToken": "ccid_IWDRxbw9*cp_88A1AB687E6AB283E91FBA1EFBAF34FB*mid_FA41C0FD6DBDABC91B1C9216C89EF2DE32DE8093*simid_608049824991615596*thid_OIP.IWDRxbw9PsIJFS9jE0dwPAHaHa",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 1, "availableSizesCount":
+        2}, "imageId": "FA41C0FD6DBDABC91B1C9216C89EF2DE32DE8093", "accentColor":
+        "994F32"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1C3F352AE698E6E41DE8F4&simid=608032185539234623",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.SaZsM60XU15nBL49_bugQwHaHa&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-8.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "164078 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1080, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 474}, "imageInsightsToken": "ccid_SaZsM60X*cp_D7A09A89BF3823E3FDA906B9784A09F9*mid_FA41C0FD6DBDABC91B1C3F352AE698E6E41DE8F4*simid_608032185539234623*thid_OIP.SaZsM60XU15nBL49!_bugQwHaHa",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 4, "availableSizesCount":
+        3}, "imageId": "FA41C0FD6DBDABC91B1C3F352AE698E6E41DE8F4", "accentColor":
+        "2425A7"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=D8A0BC0217A2A5E71D4308463A65881A2CB60E2B&simid=607988123478030453",
+        "name": "Fourth of July traditions link Americans with country''s past - NBC
+        News", "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.F7lSWQ-8B1AV35kyqUumvAHaFs&pid=Api",
+        "datePublished": "2020-10-17T06:51:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/media2.s-nbcnews.com\/j\/msnbc\/components\/photo\/_new\/130702-4thofjuly-parades.nbcnews-ux-2880-1000.jpg",
+        "hostPageUrl": "https:\/\/www.nbcnews.com\/news\/us-news\/fourth-july-traditions-link-americans-countrys-past-v19223660",
+        "contentSize": "352244 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/www.nbcnews.com\/news\/us-news\/fourth-july-traditions-link-americans-countrys...",
+        "width": 1301, "height": 1000, "hostPageFavIconUrl": "https:\/\/www.bing.com\/th?id=ODF.ighWNnrr5MMFUs8WKMme2A&pid=Api",
+        "hostPageDomainFriendlyName": "NBC News", "hostPageDiscoveredDate": "2017-09-03T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 364}, "imageInsightsToken": "ccid_F7lSWQ+8*cp_A41FB8DD649B8717CE642E0264150DE7*mid_D8A0BC0217A2A5E71D4308463A65881A2CB60E2B*simid_607988123478030453*thid_OIP.F7lSWQ-8B1AV35kyqUumvAHaFs",
+        "insightsMetadata": {"pagesIncludingCount": 9, "availableSizesCount": 4},
+        "imageId": "D8A0BC0217A2A5E71D4308463A65881A2CB60E2B", "accentColor": "AB2120"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1C9E668EEB14E27AB8891E&simid=608004663392341639",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.mnI0v_7_EMiSqCLnEvU_fgHaJQ&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-38.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "176415 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1349, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 592}, "imageInsightsToken": "ccid_mnI0v\/7\/*cp_5110BD73238C518D20575BFE10213BFC*mid_FA41C0FD6DBDABC91B1C9E668EEB14E27AB8891E*simid_608004663392341639*thid_OIP.mnI0v!_7!_EMiSqCLnEvU!_fgHaJQ",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 5, "availableSizesCount":
+        1}, "imageId": "FA41C0FD6DBDABC91B1C9E668EEB14E27AB8891E", "accentColor":
+        "733942"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1CAE595C3E021C9EAE29D9&simid=608007025618262878",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse2.explicit.bing.net\/th?id=OIP.-7pZEPlxewhJnPSePpmfewHaIO&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": false,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-36.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "186563 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1200, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 526}, "imageInsightsToken": "ccid_+7pZEPlx*cp_B332C186616A46AEFD4AE7ADF778A268*mid_FA41C0FD6DBDABC91B1CAE595C3E021C9EAE29D9*simid_608007025618262878*thid_OIP.-7pZEPlxewhJnPSePpmfewHaIO",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 1, "availableSizesCount":
+        1}, "imageId": "FA41C0FD6DBDABC91B1CAE595C3E021C9EAE29D9", "accentColor":
+        "B48817"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=0C1AE7D423C7B6DA8369EF8268E93C9F339767A2&simid=607987801366420360",
+        "name": "[American Indian Man in Traditional Clothing] - The Portal to Texas
+        History", "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.fAXtgNGj01wGyHBHnRcScgHaLH&pid=Api",
+        "datePublished": "2016-07-05T00:29:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/texashistory.unt.edu\/ark:\/67531\/metapth285876\/m1\/1\/high_res\/",
+        "hostPageUrl": "https:\/\/texashistory.unt.edu\/ark:\/67531\/metapth285876\/",
+        "contentSize": "441113 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/texashistory.unt.edu\/ark:\/67531\/metapth285876", "width": 1500,
+        "height": 2250, "hostPageFavIconUrl": "https:\/\/www.bing.com\/th?id=ODF.11xZy9usjAHjTCS6iSdmhQ&pid=Api",
+        "hostPageDomainFriendlyName": "University of North Texas", "hostPageDiscoveredDate":
+        "2016-07-05T00:29:00.0000000Z", "thumbnail": {"width": 474, "height": 711},
+        "imageInsightsToken": "ccid_fAXtgNGj*cp_F81AC813A2D86BFC55A95D0AE5D4F0E7*mid_0C1AE7D423C7B6DA8369EF8268E93C9F339767A2*simid_607987801366420360*thid_OIP.fAXtgNGj01wGyHBHnRcScgHaLH",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 5, "availableSizesCount":
+        3}, "imageId": "0C1AE7D423C7B6DA8369EF8268E93C9F339767A2", "accentColor":
+        "A2292F"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=FA41C0FD6DBDABC91B1CE59B2FACF02B43D662F8&simid=607989300308354091",
+        "name": "120+ Best American Traditional Tattoo Designs & Meanings - 2019 Ideas",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.6CWnV21dVILHiU7RXnCIPgHaIa&pid=Api",
+        "datePublished": "2021-01-16T15:19:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/tattoo-journal.com\/wp-content\/uploads\/2015\/09\/American-traditional-tattoo_-47.jpg",
+        "hostPageUrl": "http:\/\/tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas\/",
+        "contentSize": "118061 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "tattoo-journal.com\/50-great-american-traditional-tattoo-designs-and-ideas",
+        "width": 1080, "height": 1228, "hostPageDiscoveredDate": "2015-12-01T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 538}, "imageInsightsToken": "ccid_6CWnV21d*cp_C930FC339029D90B8A29CCA96F0FEA8B*mid_FA41C0FD6DBDABC91B1CE59B2FACF02B43D662F8*simid_607989300308354091*thid_OIP.6CWnV21dVILHiU7RXnCIPgHaIa",
+        "insightsMetadata": {"recipeSourcesCount": 0, "pagesIncludingCount": 6, "availableSizesCount":
+        1}, "imageId": "FA41C0FD6DBDABC91B1CE59B2FACF02B43D662F8", "accentColor":
+        "A52627"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=711B15863E0B948EBB8AE908C1D7586C1F0FC618&simid=607988299605955715",
+        "name": "American Traditional Tattoos: History, Meanings, Artists & Designs",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.OKeYeU0Zm0hSrbMM4Z_VIwHaHY&pid=Api",
+        "datePublished": "2020-11-23T21:02:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/tattmag.com\/wp-content\/uploads\/2020\/06\/American-Traditional-Sleeve-Tattoo-26-1-1024x1020.jpg",
+        "hostPageUrl": "https:\/\/tattmag.com\/american-traditional-tattoo\/", "contentSize":
+        "94379 B", "encodingFormat": "jpeg", "hostPageDisplayUrl": "https:\/\/tattmag.com\/american-traditional-tattoo",
+        "width": 1024, "height": 1020, "hostPageDiscoveredDate": "2020-07-05T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 472}, "imageInsightsToken": "ccid_OKeYeU0Z*cp_3D222CA2A965F44D4CA5B2ECDCBA5467*mid_711B15863E0B948EBB8AE908C1D7586C1F0FC618*simid_607988299605955715*thid_OIP.OKeYeU0Zm0hSrbMM4Z!_VIwHaHY",
+        "insightsMetadata": {"pagesIncludingCount": 10, "availableSizesCount": 4,
+        "videoObject": {"allowHttpsEmbed": false, "videoId": "711B15863E0B948EBB8A711B15863E0B948EBB8A",
+        "allowMobileEmbed": false}}, "imageId": "711B15863E0B948EBB8AE908C1D7586C1F0FC618",
+        "accentColor": "9D312E"}, {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=428F3059491EA89A42D9740B112D8BE9D626C412&simid=608011002782167108",
+        "name": "Traditional Native American Clothing for sale | Only 3 left at -75%",
+        "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.2n36E0XG-uP8HF4HXTz1RwHaKm&pid=Api",
+        "datePublished": "2020-08-03T16:27:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/www.used.forsale\/sh-img\/19cd1d7f2d1e7d6d3504f882d20b6f42_traditional+native+american+clothing.jpg",
+        "hostPageUrl": "https:\/\/www.used.forsale\/traditional-native-american-clothing",
+        "contentSize": "109914 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/www.used.forsale\/traditional-native-american-clothing", "width":
+        600, "height": 859, "hostPageDiscoveredDate": "2017-12-30T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 678}, "imageInsightsToken": "ccid_2n36E0XG*cp_986CA9A8355CD7F78ABCFB32718F45DA*mid_428F3059491EA89A42D9740B112D8BE9D626C412*simid_608011002782167108*thid_OIP.2n36E0XG-uP8HF4HXTz1RwHaKm",
+        "insightsMetadata": {"pagesIncludingCount": 2, "availableSizesCount": 1},
+        "imageId": "428F3059491EA89A42D9740B112D8BE9D626C412", "accentColor": "173C70"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=65BB0987C5A5019BEAF46CFA9406057778795BCF&simid=608012660643660431",
+        "name": "Annual pow wow celebrates ancient Native American traditions | Milwaukee
+        Independent", "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.o5MVwor97_KPaGe3MtIcWAHaE8&pid=Api",
+        "datePublished": "2016-10-17T17:49:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/www.milwaukeeindependent.com\/wp-content\/uploads\/2016\/10\/03a_101516_HuntingMoon_0908.jpg",
+        "hostPageUrl": "http:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native-american-traditions\/",
+        "contentSize": "216272 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native-american...",
+        "width": 1800, "height": 1200, "hostPageDiscoveredDate": "2016-10-17T17:49:54.0000000Z",
+        "thumbnail": {"width": 474, "height": 316}, "imageInsightsToken": "ccid_o5MVwor9*cp_B18435F9BE2F700D23DB32191FEE6E4E*mid_65BB0987C5A5019BEAF46CFA9406057778795BCF*simid_608012660643660431*thid_OIP.o5MVwor97!_KPaGe3MtIcWAHaE8",
+        "insightsMetadata": {"pagesIncludingCount": 2, "availableSizesCount": 1},
+        "imageId": "65BB0987C5A5019BEAF46CFA9406057778795BCF", "accentColor": "AA9821"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=66DCA15F06FE6B670C2D32DBE1A6A436CDF51F7F&simid=608010289804033098",
+        "name": "Annual pow wow celebrates ancient Native American traditions | Milwaukee
+        Independent", "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.tNT7Q3mA7oMrOXraA9fP1gHaE8&pid=Api",
+        "datePublished": "2020-10-19T06:56:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "http:\/\/www.milwaukeeindependent.com\/wp-content\/uploads\/2016\/10\/01_101516_HuntingMoon_0284.jpg",
+        "hostPageUrl": "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native-american-traditions\/",
+        "contentSize": "162999 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native...",
+        "width": 1800, "height": 1200, "hostPageDiscoveredDate": "2020-08-06T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 316}, "imageInsightsToken": "ccid_tNT7Q3mA*cp_346271BBECDC1741C7E9B6DA39BC2DBD*mid_66DCA15F06FE6B670C2D32DBE1A6A436CDF51F7F*simid_608010289804033098*thid_OIP.tNT7Q3mA7oMrOXraA9fP1gHaE8",
+        "insightsMetadata": {"pagesIncludingCount": 6, "availableSizesCount": 1},
+        "imageId": "66DCA15F06FE6B670C2D32DBE1A6A436CDF51F7F", "accentColor": "BB8810"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=3B1A447F10B7B610B749300728A1370331DBD660&simid=608015018560259618",
+        "name": "45 Traditional American Tattoos That are Bold and Beautiful - Inspirationfeed",
+        "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.O4ZLgqftrQkrinKflNMc-AHaHa&pid=Api",
+        "datePublished": "2020-10-18T07:40:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/inspirationfeed.com\/wp-content\/uploads\/2020\/05\/Traditional-American-Tattoo-e.jpg",
+        "hostPageUrl": "https:\/\/inspirationfeed.com\/traditional-american-tattoos\/",
+        "contentSize": "1434009 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/inspirationfeed.com\/traditional-american-tattoos", "width": 2902,
+        "height": 2902, "hostPageFavIconUrl": "https:\/\/www.bing.com\/th?id=ODF.GWilTdu4Nev-SOosbFNobQ&pid=Api",
+        "hostPageDomainFriendlyName": "inspirationfeed.com", "hostPageDiscoveredDate":
+        "2020-06-11T00:00:00.0000000Z", "thumbnail": {"width": 474, "height": 474},
+        "imageInsightsToken": "ccid_O4ZLgqft*cp_06A7E1940A4D6E5672768C40C5C9A5B6*mid_3B1A447F10B7B610B749300728A1370331DBD660*simid_608015018560259618*thid_OIP.O4ZLgqftrQkrinKflNMc-AHaHa",
+        "insightsMetadata": {"pagesIncludingCount": 6, "availableSizesCount": 6},
+        "imageId": "3B1A447F10B7B610B749300728A1370331DBD660", "accentColor": "9C5E2F"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=66DCA15F06FE6B670C2D6F381E6FA5C4ADAB4B62&simid=608050739789438656",
+        "name": "Annual pow wow celebrates ancient Native American traditions | Milwaukee
+        Independent", "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.ZcQ_V53blG9z-3fkDC2xBgHaE8&pid=Api",
+        "datePublished": "2020-10-19T06:56:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/www.milwaukeeindependent.com\/wp-content\/uploads\/2016\/10\/101516_HuntingMoon_0644.jpg",
+        "hostPageUrl": "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native-american-traditions\/",
+        "contentSize": "231959 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native...",
+        "width": 1800, "height": 1200, "hostPageDiscoveredDate": "2020-08-06T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 316}, "imageInsightsToken": "ccid_ZcQ\/V53b*cp_D1AE2F3EDDEA6F79A3AB9824C789B628*mid_66DCA15F06FE6B670C2D6F381E6FA5C4ADAB4B62*simid_608050739789438656*thid_OIP.ZcQ!_V53blG9z-3fkDC2xBgHaE8",
+        "insightsMetadata": {"pagesIncludingCount": 4, "availableSizesCount": 2},
+        "imageId": "66DCA15F06FE6B670C2D6F381E6FA5C4ADAB4B62", "accentColor": "404E8B"},
+        {"webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=american+traditional&id=66DCA15F06FE6B670C2D1153D6C020D03E5183D5&simid=608042364631669365",
+        "name": "Annual pow wow celebrates ancient Native American traditions | Milwaukee
+        Independent", "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.42i7VlnX8JAOHJ_upxtFzQHaE8&pid=Api",
+        "datePublished": "2020-10-19T06:56:00.0000000Z", "isFamilyFriendly": true,
+        "contentUrl": "https:\/\/www.milwaukeeindependent.com\/wp-content\/uploads\/2016\/10\/101516_HuntingMoon_0999.jpg",
+        "hostPageUrl": "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native-american-traditions\/",
+        "contentSize": "208985 B", "encodingFormat": "jpeg", "hostPageDisplayUrl":
+        "https:\/\/www.milwaukeeindependent.com\/articles\/annual-pow-wow-celebrates-ancient-native...",
+        "width": 1800, "height": 1200, "hostPageDiscoveredDate": "2020-08-06T00:00:00.0000000Z",
+        "thumbnail": {"width": 474, "height": 316}, "imageInsightsToken": "ccid_42i7VlnX*cp_FA344F9D4D0ED0BA2E800AD7D45013B5*mid_66DCA15F06FE6B670C2D1153D6C020D03E5183D5*simid_608042364631669365*thid_OIP.42i7VlnX8JAOHJ!_upxtFzQHaE8",
+        "insightsMetadata": {"pagesIncludingCount": 3, "availableSizesCount": 1},
+        "imageId": "66DCA15F06FE6B670C2D1153D6C020D03E5183D5", "accentColor": "3E528D"}],
+        "queryExpansions": [{"text": "Traditional American Clothing", "displayText":
+        "Clothing", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+American+Clothing&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Clothing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+American+Clothing&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Clothing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Traditional+American+Clothing&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional American Indian Clothing", "displayText": "Indian Clothing",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+American+Indian+Clothing&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Indian+Clothing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+American+Indian+Clothing&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Indian+Clothing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Traditional+American+Indian+Clothing&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Costume", "displayText": "Costume", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Costume&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Costume%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Costume&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Costume%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Costume&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tattoo Drawings", "displayText": "Tattoo Drawings",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tattoo+Drawings&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Drawings%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tattoo+Drawings&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Drawings%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Tattoo+Drawings&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tiger Tattoo", "displayText": "Tiger Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tiger+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tiger+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tiger+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tiger+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Tiger+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Hourglass Tattoo", "displayText": "Hourglass
+        Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Hourglass+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Hourglass+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Hourglass+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Hourglass+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Traditional+Hourglass+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Ship Tattoo", "displayText": "Ship Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Ship+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ship+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Ship+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ship+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Ship+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Sun Tattoo", "displayText": "Sun Tattoo", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Sun+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sun+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Sun+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sun+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Traditional+Sun+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Fairy Tattoo", "displayText": "Fairy Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Fairy+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fairy+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Fairy+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fairy+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Fairy+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Spider Tattoo", "displayText": "Spider Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Spider+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Spider+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Spider+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Spider+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Spider+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Forearm Tattoo", "displayText": "Forearm Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Forearm+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Forearm+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Forearm+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Forearm+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Forearm+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Back Tattoo", "displayText": "Back Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Back+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Back+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Back+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Back+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Back+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Knee Tattoo", "displayText": "Knee Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Knee+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Knee+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Knee+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Knee+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Knee+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Cowboy Tattoo", "displayText": "Cowboy Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Cowboy+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cowboy+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Cowboy+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cowboy+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Cowboy+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Eye Tattoo", "displayText": "Eye Tattoo", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Eye+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Eye+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Eye+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Eye+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Eye+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Octopus Tattoo", "displayText": "Octopus Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Octopus+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Octopus+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Octopus+Tattoo&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Octopus+Tattoo%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Octopus+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tattoo Art", "displayText": "Tattoo Art", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tattoo+Art&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Art%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tattoo+Art&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Art%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Tattoo+Art&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Dress", "displayText": "Dress", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Dress&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dress%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Dress&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dress%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Dress&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tattoo Style", "displayText": "Tattoo Style",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tattoo+Style&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Style%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tattoo+Style&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tattoo+Style%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Tattoo+Style&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Flash Art", "displayText": "Flash Art", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Flash+Art&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Flash+Art%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Flash+Art&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Flash+Art%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Flash+Art&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}}],
+        "pivotSuggestions": [{"pivot": "american", "suggestions": [{"text": "Chinese
+        Traditional", "displayText": "Chinese", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Chinese+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Chinese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Chinese+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Chinese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Chinese+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Jordanian Traditional", "displayText": "Jordanian", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Jordanian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Jordanian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Jordanian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Jordanian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Jordanian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Japanese Traditional", "displayText": "Japanese", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Japanese+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Japanese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Japanese+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Japanese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Japanese+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Indian Traditional", "displayText": "Indian", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Indian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Indian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Indian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Indian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Indian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "African Traditional", "displayText": "African", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=African+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22African%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=African+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22African%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=African+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Old Traditional", "displayText": "Old", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Old+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Old%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Old+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Old%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Old+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Irish Traditional", "displayText": "Irish", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Irish+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Irish%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Irish+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Irish%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Irish+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Modern Traditional", "displayText": "Modern", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Modern+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Modern%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Modern+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Modern%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Modern+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Korean Traditional", "displayText": "Korean", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Korean+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Korean%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Korean+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Korean%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Korean+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Northern Traditional", "displayText": "Northern", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Northern+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Northern%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Northern+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Northern%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Northern+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Ethiopian Traditional", "displayText": "Ethiopian", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Ethiopian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ethiopian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Ethiopian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ethiopian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Ethiopian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Eritrean Traditional", "displayText": "Eritrean", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Eritrean+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Eritrean%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Eritrean+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Eritrean%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Eritrean+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Scandinavian Traditional", "displayText": "Scandinavian", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Scandinavian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Scandinavian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Scandinavian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Scandinavian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Scandinavian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Palestinian Traditional", "displayText": "Palestinian", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Palestinian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Palestinian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Palestinian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Palestinian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Palestinian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Casual Traditional", "displayText": "Casual", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Casual+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Casual%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Casual+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Casual%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Casual+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Bollywood Traditional", "displayText": "Bollywood", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Bollywood+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bollywood%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Bollywood+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bollywood%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Bollywood+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Rebel Traditional", "displayText": "Rebel", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Rebel+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Rebel%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Rebel+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Rebel%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Rebel+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Siberian Traditional", "displayText": "Siberian", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=Siberian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siberian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Siberian+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siberian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Siberian+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Tuff Girl Tattoos Traditional", "displayText": "Tuff Girl Tattoos",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Tuff+Girl+Tattoos+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tuff+Girl+Tattoos%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Tuff+Girl+Tattoos+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tuff+Girl+Tattoos%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Tuff+Girl+Tattoos+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Smoker Traditional", "displayText": "Smoker", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Smoker+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Smoker%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Smoker+Traditional&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Smoker%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Smoker+Traditional&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}}]},
+        {"pivot": "traditional", "suggestions": [{"text": "American Traditions", "displayText":
+        "Traditions", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditions&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditions%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditions&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditions%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditions&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditonal", "displayText": "Traditonal", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditonal&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditonal%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditonal&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditonal%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditonal&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Custom", "displayText": "Custom", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Custom&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Custom%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Custom&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Custom%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Custom&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditionalism", "displayText": "Traditionalism", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Traditionalism&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditionalism%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditionalism&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Traditionalism%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Traditionalism&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Outsider", "displayText": "Outsider", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Outsider&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Outsider%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Outsider&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Outsider%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Outsider&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Flavored", "displayText": "Flavored", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Flavored&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Flavored%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Flavored&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Flavored%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Flavored&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Feminine", "displayText": "Feminine", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Feminine&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Feminine%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Feminine&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Feminine%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Feminine&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Split Level", "displayText": "Split Level", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Split+Level&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Split+Level%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Split+Level&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Split+Level%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Split+Level&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Values", "displayText": "Values", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Values&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Values%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Values&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Values%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Values&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Beaded", "displayText": "Beaded", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Beaded&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Beaded%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Beaded&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Beaded%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Beaded&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Photojournalism", "displayText": "Photojournalism", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Photojournalism&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Photojournalism%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Photojournalism&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Photojournalism%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Photojournalism&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Retro", "displayText": "Retro", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Retro&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Retro%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Retro&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Retro%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Retro&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Ethnic", "displayText": "Ethnic", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Ethnic&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ethnic%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Ethnic&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Ethnic%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Ethnic&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Religious Town Hall", "displayText": "Religious Town Hall",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Religious+Town+Hall&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Religious+Town+Hall%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Religious+Town+Hall&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Religious+Town+Hall%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Religious+Town+Hall&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Behavioral", "displayText": "Behavioral", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Behavioral&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Behavioral%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Behavioral&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Behavioral%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Behavioral&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Shingle", "displayText": "Shingle", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Shingle&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Shingle%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Shingle&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Shingle%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Shingle&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Potluck", "displayText": "Potluck", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Potluck&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Potluck%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Potluck&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Potluck%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Potluck&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Painted", "displayText": "Painted", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Painted&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Painted%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Painted&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Painted%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Painted&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Happy New Year", "displayText": "Happy New Year", "webSearchUrl":
+        "https:\/\/www.bing.com\/images\/search?q=American+Happy+New+Year&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Happy+New+Year%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Happy+New+Year&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Happy+New+Year%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Happy+New+Year&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Woman", "displayText": "Woman", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Woman&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Woman%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=IRQBPS",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Woman&tq=%7b%22pq%22%3a%22american+traditional%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22american%22%2c%22pv%22%3a%22american%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22traditional%22%2c%22pv%22%3a%22traditional%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Woman%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Woman&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}}]}],
+        "relatedSearches": [{"text": "Traditional Tattoo Art", "displayText": "Traditional
+        Tattoo Art", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Tattoo+Art&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Tattoo+Art",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Traditional+Tattoo+Art&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional American Clothing", "displayText": "Traditional American
+        Clothing", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+American+Clothing&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+American+Clothing",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Traditional+American+Clothing&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Folk Art Paintings", "displayText": "American Folk Art
+        Paintings", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Folk+Art+Paintings&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Folk+Art+Paintings",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Folk+Art+Paintings&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional American Indian Clothing", "displayText": "Traditional
+        American Indian Clothing", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+American+Indian+Clothing&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+American+Indian+Clothing",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Traditional+American+Indian+Clothing&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Costume", "displayText": "American Traditional
+        Costume", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Costume&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Costume",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Costume&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Tattoo Meanings", "displayText": "Traditional Tattoo
+        Meanings", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Tattoo+Meanings&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Tattoo+Meanings",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Traditional+Tattoo+Meanings&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Frog Tattoos", "displayText": "Traditional Frog Tattoos",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Frog+Tattoos&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Frog+Tattoos",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Traditional+Frog+Tattoos&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Native American Clothes", "displayText": "Traditional
+        Native American Clothes", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Native+American+Clothes&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Native+American+Clothes",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Traditional+Native+American+Clothes&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Native American Indian Traditional Dress", "displayText": "Native
+        American Indian Traditional Dress", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Native+American+Indian+Traditional+Dress&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Native+American+Indian+Traditional+Dress",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Native+American+Indian+Traditional+Dress&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tattoo Drawings", "displayText": "American
+        Traditional Tattoo Drawings", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tattoo+Drawings&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tattoo+Drawings",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Tattoo+Drawings&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Classic American Tattoo Designs", "displayText": "Classic American
+        Tattoo Designs", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Classic+American+Tattoo+Designs&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Classic+American+Tattoo+Designs",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=Classic+American+Tattoo+Designs&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Tattoo Color Palette", "displayText": "American
+        Traditional Tattoo Color Palette", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Tattoo+Color+Palette&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Tattoo+Color+Palette",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Tattoo+Color+Palette&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Sun Tattoo", "displayText": "American Traditional
+        Sun Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Sun+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Sun+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Traditional+Sun+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Hourglass Tattoo", "displayText": "American
+        Traditional Hourglass Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Hourglass+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Hourglass+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=American+Traditional+Hourglass+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Flower Tattoo Designs", "displayText": "Traditional
+        Flower Tattoo Designs", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Flower+Tattoo+Designs&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Flower+Tattoo+Designs",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Traditional+Flower+Tattoo+Designs&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Native American Indian People", "displayText": "Native American
+        Indian People", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Native+American+Indian+People&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Native+American+Indian+People",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Native+American+Indian+People&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Native American Pow WoW", "displayText": "Native American Pow WoW",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Native+American+Pow+WoW&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Native+American+Pow+WoW",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?q=Native+American+Pow+WoW&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Spider Tattoo", "displayText": "American Traditional
+        Spider Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Spider+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Spider+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Spider+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Fairy Tattoo", "displayText": "American Traditional
+        Fairy Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Fairy+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Fairy+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Fairy+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Tiger Tattoo", "displayText": "Traditional Tiger Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Tiger+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Tiger+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=Traditional+Tiger+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Skull Tattoo Designs", "displayText": "American
+        Traditional Skull Tattoo Designs", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Skull+Tattoo+Designs&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Skull+Tattoo+Designs",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?q=American+Traditional+Skull+Tattoo+Designs&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Eye Tattoo", "displayText": "American Traditional
+        Eye Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Eye+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Eye+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Eye+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Back Tattoo", "displayText": "American Traditional
+        Back Tattoo", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Back+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Back+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?q=American+Traditional+Back+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "American Traditional Women Tattoos", "displayText": "American Traditional
+        Women Tattoos", "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=American+Traditional+Women+Tattoos&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=American+Traditional+Women+Tattoos",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=American+Traditional+Women+Tattoos&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}},
+        {"text": "Traditional Coffin Tattoo", "displayText": "Traditional Coffin Tattoo",
+        "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Coffin+Tattoo&FORM=IRPATC",
+        "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Coffin+Tattoo",
+        "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Traditional+Coffin+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}}]}'
+  recorded_at: Fri, 21 Jul 2023 17:02:38 GMT
 recorded_with: VCR 6.1.0

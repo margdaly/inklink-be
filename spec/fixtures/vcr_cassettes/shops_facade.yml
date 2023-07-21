@@ -23,7 +23,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1327'
+      - '1342'
       Content-Type:
       - application/json; charset=utf-8
       Link:
@@ -32,29 +32,29 @@ http_interactions:
       Server:
       - Finatra
       X-Fsq-Request-Id:
-      - 647fc7030f15b81f3e5541c2
+      - 64baba2de9ce437e30e74aaa
       X-Ratelimit-Path:
       - "/v3/places/search"
       X-Ratelimit-Limit:
       - '360000'
       X-Ratelimit-Reset:
-      - '1686096540'
+      - '1689959849'
       X-Ratelimit-Remaining:
-      - '359995'
+      - '359997'
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 06 Jun 2023 23:53:39 GMT
+      - Fri, 21 Jul 2023 17:02:37 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8245-DEN
+      - cache-den8230-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1686095619.020042,VS0,VE372
+      - S1689958957.057881,VS0,VE294
       Vary:
       - Origin
     body:
@@ -84,11 +84,7 @@ http_interactions:
         E Bijou St","census_block":"080410023001013","country":"US","cross_street":"Bijou
         and Tejon","dma":"Colorado Springs-Pueblo","formatted_address":"107 E Bijou
         St (Bijou and Tejon), Colorado Springs, CO 80903","locality":"Colorado Springs","postcode":"80903","region":"CO"},"name":"Skin
-        Evolution Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"4ddd3370d22df17199101f5b","categories":[{"id":11075,"name":"Tattoo
-        Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":421,"geocodes":{"main":{"latitude":38.836494,"longitude":-104.824485},"roof":{"latitude":38.836494,"longitude":-104.824485}},"link":"/v3/places/4ddd3370d22df17199101f5b","location":{"address":"15
-        E Bijou St","address_extended":"Ste E","census_block":"080410023001015","country":"US","cross_street":"","dma":"Colorado
-        Springs-Pueblo","formatted_address":"15 E Bijou St, Colorado Springs, CO 80903","locality":"Colorado
-        Springs","postcode":"80903","region":"CO"},"name":"To The Grave Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"52bcb73211d2d969769d265b","categories":[{"id":11075,"name":"Tattoo
+        Evolution Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"52bcb73211d2d969769d265b","categories":[{"id":11075,"name":"Tattoo
         Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":439,"geocodes":{"main":{"latitude":38.836932,"longitude":-104.824133},"roof":{"latitude":38.836932,"longitude":-104.824133}},"link":"/v3/places/52bcb73211d2d969769d265b","location":{"address":"20
         E Bijou St","census_block":"080410023001006","country":"US","cross_street":"","dma":"Colorado
         Springs-Pueblo","formatted_address":"20 E Bijou St, Colorado Springs, CO 80903","locality":"Colorado
@@ -107,8 +103,13 @@ http_interactions:
         S Nevada Ave","census_block":"080410023002027","country":"US","cross_street":"","dma":"Colorado
         Springs-Pueblo","formatted_address":"603 S Nevada Ave, Colorado Springs, CO
         80903","locality":"Colorado Springs","postcode":"80903","region":"CO"},"name":"Self
-        Made Tattoo and Piercing","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
-  recorded_at: Tue, 06 Jun 2023 23:53:39 GMT
+        Made Tattoo and Piercing","related_places":{},"timezone":"America/Denver"},{"fsq_id":"5c7308b9e07550002cbd9417","categories":[{"id":11075,"name":"Tattoo
+        Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":1225,"geocodes":{"main":{"latitude":38.832986,"longitude":-104.835338},"roof":{"latitude":38.832986,"longitude":-104.835338}},"link":"/v3/places/5c7308b9e07550002cbd9417","location":{"address":"524
+        W Colorado Ave","census_block":"080410015002027","country":"US","cross_street":"","dma":"Colorado
+        Springs-Pueblo","formatted_address":"524 W Colorado Ave, Colorado Springs,
+        CO 80905","locality":"Colorado Springs","postcode":"80905","region":"CO"},"name":"Fallen
+        Heroes Tattoo // Art","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
+  recorded_at: Fri, 21 Jul 2023 17:02:37 GMT
 - request:
     method: get
     uri: https://api.foursquare.com/v3/places/search?categories=11075&near=colorado%20springs
@@ -132,7 +133,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1327'
+      - '1342'
       Content-Type:
       - application/json; charset=utf-8
       Link:
@@ -141,29 +142,29 @@ http_interactions:
       Server:
       - Finatra
       X-Fsq-Request-Id:
-      - 647fc703443c7f037bcfb3e6
+      - 64baba2da781fd2bbfb7cb42
       X-Ratelimit-Path:
       - "/v3/places/search"
       X-Ratelimit-Limit:
       - '360000'
       X-Ratelimit-Reset:
-      - '1686096540'
+      - '1689959849'
       X-Ratelimit-Remaining:
-      - '359994'
+      - '359996'
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 06 Jun 2023 23:53:39 GMT
+      - Fri, 21 Jul 2023 17:02:37 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8233-DEN
+      - cache-den8255-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1686095620.508364,VS0,VE345
+      - S1689958957.472891,VS0,VE260
       Vary:
       - Origin
     body:
@@ -193,11 +194,7 @@ http_interactions:
         E Bijou St","census_block":"080410023001013","country":"US","cross_street":"Bijou
         and Tejon","dma":"Colorado Springs-Pueblo","formatted_address":"107 E Bijou
         St (Bijou and Tejon), Colorado Springs, CO 80903","locality":"Colorado Springs","postcode":"80903","region":"CO"},"name":"Skin
-        Evolution Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"4ddd3370d22df17199101f5b","categories":[{"id":11075,"name":"Tattoo
-        Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":421,"geocodes":{"main":{"latitude":38.836494,"longitude":-104.824485},"roof":{"latitude":38.836494,"longitude":-104.824485}},"link":"/v3/places/4ddd3370d22df17199101f5b","location":{"address":"15
-        E Bijou St","address_extended":"Ste E","census_block":"080410023001015","country":"US","cross_street":"","dma":"Colorado
-        Springs-Pueblo","formatted_address":"15 E Bijou St, Colorado Springs, CO 80903","locality":"Colorado
-        Springs","postcode":"80903","region":"CO"},"name":"To The Grave Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"52bcb73211d2d969769d265b","categories":[{"id":11075,"name":"Tattoo
+        Evolution Tattoo","related_places":{},"timezone":"America/Denver"},{"fsq_id":"52bcb73211d2d969769d265b","categories":[{"id":11075,"name":"Tattoo
         Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":439,"geocodes":{"main":{"latitude":38.836932,"longitude":-104.824133},"roof":{"latitude":38.836932,"longitude":-104.824133}},"link":"/v3/places/52bcb73211d2d969769d265b","location":{"address":"20
         E Bijou St","census_block":"080410023001006","country":"US","cross_street":"","dma":"Colorado
         Springs-Pueblo","formatted_address":"20 E Bijou St, Colorado Springs, CO 80903","locality":"Colorado
@@ -216,6 +213,11 @@ http_interactions:
         S Nevada Ave","census_block":"080410023002027","country":"US","cross_street":"","dma":"Colorado
         Springs-Pueblo","formatted_address":"603 S Nevada Ave, Colorado Springs, CO
         80903","locality":"Colorado Springs","postcode":"80903","region":"CO"},"name":"Self
-        Made Tattoo and Piercing","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
-  recorded_at: Tue, 06 Jun 2023 23:53:39 GMT
+        Made Tattoo and Piercing","related_places":{},"timezone":"America/Denver"},{"fsq_id":"5c7308b9e07550002cbd9417","categories":[{"id":11075,"name":"Tattoo
+        Parlor","icon":{"prefix":"https://ss3.4sqi.net/img/categories_v2/shops/tattoos_","suffix":".png"}}],"chains":[],"distance":1225,"geocodes":{"main":{"latitude":38.832986,"longitude":-104.835338},"roof":{"latitude":38.832986,"longitude":-104.835338}},"link":"/v3/places/5c7308b9e07550002cbd9417","location":{"address":"524
+        W Colorado Ave","census_block":"080410015002027","country":"US","cross_street":"","dma":"Colorado
+        Springs-Pueblo","formatted_address":"524 W Colorado Ave, Colorado Springs,
+        CO 80905","locality":"Colorado Springs","postcode":"80905","region":"CO"},"name":"Fallen
+        Heroes Tattoo // Art","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
+  recorded_at: Fri, 21 Jul 2023 17:02:37 GMT
 recorded_with: VCR 6.1.0
