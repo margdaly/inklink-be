@@ -20,4 +20,4 @@ Artist.create!(name: "Winston Bishop", email: "email@email.com", password: "pass
 Artist.create!(name: "John John Jr.", email: "john@gmail.com", password: "password", password_confirmation: "password", styles: ["Black and Gray", "Script"], pricing: "$$")
 
 Artist.create!(name: "Sailor Jerry", email: "jerry@gmail.com", password: "password", password_confirmation: "password", styles: ["American Traditional", "Tribal"], pricing: "$$$")
-Artist.create!(name: "Sailor Moon", email: "moon@email.com", password: "password", password_confirmation: "password", styles: ["Geometric", "Realism", "Dragon Style"], pricing: "$")
+Artist.create!(name: "Sailor Moons", email: "moon@email.com", password: "password", password_confirmation: "password", styles: ["Geometric", "Realism", "Dragon Style"], pricing: "$")
