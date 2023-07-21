@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 21 Jul 2023 17:37:43 GMT
+      - Fri, 21 Jul 2023 17:59:05 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -37,13 +37,13 @@ http_interactions:
       Useragentreductionoptout:
       - A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
       Bingapis-Traceid:
-      - 64bac267e1404a02ac644093be9a3caa
+      - 64bac7689f874f9095c8f27bcf06d14b
       X-Msapi-Userstate:
-      - 64b8
+      - 7b3a
       Pragma:
       - no-cache
       X-Eventid:
-      - 64bac267e1404a02ac644093be9a3caa
+      - 64bac7689f874f9095c8f27bcf06d14b
       Accept-Ch:
       - Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version,Sec-CH-UA-Mobile,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
       Bingapis-Market:
@@ -53,27 +53,27 @@ http_interactions:
       P3p:
       - CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
       X-Search-Responseinfo:
-      - InternalResponseTime=238,MSDatacenter=MWHE01
+      - InternalResponseTime=229,MSDatacenter=MWHE01
       Csp-Billing-Usage:
       - CognitiveServices.BingSearchV7.Transaction=1
       X-Content-Type-Options:
       - nosniff
       X-Msedge-Ref:
-      - 'Ref A: 41212C9681184A3CA11FE2C158BEE329 Ref B: BY3EDGE0319 Ref C: 2023-07-21T17:37:43Z'
+      - 'Ref A: 9C5296C25D19412BAF082DEEE34CA865 Ref B: BY3EDGE0411 Ref C: 2023-07-21T17:59:04Z'
       X-Cache:
       - CONFIG_NOCACHE
       X-Ms-Region:
       - West US
       Apim-Request-Id:
-      - 85606759-861f-4db8-bc6a-f1ccab388f8d
+      - 43c7600c-314b-4fac-a14f-652af7dbf57c
       X-Msedge-Clientid:
-      - 1291167E886C62972BD0052B892063C3
+      - 3C01AA871548685C39D2B9D214046941
       X-Ratelimit-Requests-Limit:
       - '1000'
       X-Ratelimit-Requests-Remaining:
-      - '980'
+      - '974'
       X-Ratelimit-Requests-Reset:
-      - '2675160'
+      - '2673878'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -593,5 +593,5 @@ http_interactions:
         "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=Traditional+Coffin+Tattoo&FORM=IRPATC",
         "searchLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=Traditional+Coffin+Tattoo",
         "thumbnail": {"thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?q=Traditional+Coffin+Tattoo&pid=Api&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1"}}]}'
-  recorded_at: Fri, 21 Jul 2023 17:37:43 GMT
+  recorded_at: Fri, 21 Jul 2023 17:59:05 GMT
 recorded_with: VCR 6.1.0

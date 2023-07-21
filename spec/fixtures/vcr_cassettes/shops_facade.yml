@@ -32,7 +32,7 @@ http_interactions:
       Server:
       - Finatra
       X-Fsq-Request-Id:
-      - 64bac26543dd745ad61310e5
+      - 64bac76788449a4dd6fcd26e
       X-Ratelimit-Path:
       - "/v3/places/search"
       X-Ratelimit-Limit:
@@ -40,21 +40,21 @@ http_interactions:
       X-Ratelimit-Reset:
       - '1689964105'
       X-Ratelimit-Remaining:
-      - '359998'
+      - '359992'
       Accept-Ranges:
       - bytes
       Date:
-      - Fri, 21 Jul 2023 17:37:41 GMT
+      - Fri, 21 Jul 2023 17:59:03 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8260-DEN
+      - cache-den8279-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1689961062.647212,VS0,VE275
+      - S1689962343.419700,VS0,VE213
       Vary:
       - Origin
     body:
@@ -109,7 +109,7 @@ http_interactions:
         Springs-Pueblo","formatted_address":"524 W Colorado Ave, Colorado Springs,
         CO 80905","locality":"Colorado Springs","postcode":"80905","region":"CO"},"name":"Fallen
         Heroes Tattoo // Art","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
-  recorded_at: Fri, 21 Jul 2023 17:37:41 GMT
+  recorded_at: Fri, 21 Jul 2023 17:59:03 GMT
 - request:
     method: get
     uri: https://api.foursquare.com/v3/places/search?categories=11075&near=colorado%20springs
@@ -142,7 +142,7 @@ http_interactions:
       Server:
       - Finatra
       X-Fsq-Request-Id:
-      - 64bac266c4a29d66e8aa55c9
+      - 64bac7677740604db280e35b
       X-Ratelimit-Path:
       - "/v3/places/search"
       X-Ratelimit-Limit:
@@ -150,21 +150,21 @@ http_interactions:
       X-Ratelimit-Reset:
       - '1689964105'
       X-Ratelimit-Remaining:
-      - '359997'
+      - '359991'
       Accept-Ranges:
       - bytes
       Date:
-      - Fri, 21 Jul 2023 17:37:42 GMT
+      - Fri, 21 Jul 2023 17:59:04 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8246-DEN
+      - cache-den8273-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1689961062.025626,VS0,VE238
+      - S1689962344.761551,VS0,VE272
       Vary:
       - Origin
     body:
@@ -219,5 +219,5 @@ http_interactions:
         Springs-Pueblo","formatted_address":"524 W Colorado Ave, Colorado Springs,
         CO 80905","locality":"Colorado Springs","postcode":"80905","region":"CO"},"name":"Fallen
         Heroes Tattoo // Art","related_places":{},"timezone":"America/Denver"}],"context":{"geo_bounds":{"circle":{"center":{"latitude":38.83388,"longitude":-104.82136},"radius":15210}}}}'
-  recorded_at: Fri, 21 Jul 2023 17:37:42 GMT
+  recorded_at: Fri, 21 Jul 2023 17:59:04 GMT
 recorded_with: VCR 6.1.0
