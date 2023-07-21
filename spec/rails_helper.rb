@@ -65,16 +65,16 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 end
 
-VCR.configure do |config|
-  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  config.hook_into :webmock
-  config.ignore_localhost = true
-  config.filter_sensitive_data('X-RapidAPI-Key') { ENV['X_RapidAPI_Key'] }
-  config.filter_sensitive_data('X-RapidAPI-Host') { ENV['X_RapidAPI_Host'] }
-  config.filter_sensitive_data('Authorization') { ENV['Authorization'] }
-  config.default_cassette_options = { allow_playback_repeats: true }
-  config.configure_rspec_metadata!
-end
+# VCR.configure do |config|
+#   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+#   config.hook_into :webmock
+#   config.ignore_localhost = true
+#   config.filter_sensitive_data('X-RapidAPI-Key') { ENV['X_RapidAPI_Key'] }
+#   config.filter_sensitive_data('X-RapidAPI-Host') { ENV['X_RapidAPI_Host'] }
+#   config.filter_sensitive_data('Authorization') { ENV['Authorization'] }
+#   config.default_cassette_options = { allow_playback_repeats: true }
+#   config.configure_rspec_metadata!
+# end
 
 #Shoulda::Matchers add to bottom of file 
 Shoulda::Matchers.configure do |config|

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'SearchForShops' do
-  describe 'GET /api/v0/search', :vcr do
+  describe 'GET /api/v0/search' do
     it 'returns 10 shops based on search' do
       VCR.use_cassette('search_for_shops') do
         headers = { 'CONTENT_TYPE' => 'application/json' }

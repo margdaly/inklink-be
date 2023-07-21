@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe ImagesService do
   describe '#get_images' do
-    it 'returns images', vcr: { record: :new_episodes } do
+    it 'returns images' do
       VCR.use_cassette('images_service') do
         images_service = ImagesService.new
 
