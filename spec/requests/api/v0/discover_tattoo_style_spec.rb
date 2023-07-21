@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'DiscoverTattooStyle' do
   describe 'GET /api/v0/discover' do
-    it 'returns 5 images based on tattoo style', :vcr do
+    it 'returns 5 images based on tattoo style' do
       VCR.use_cassette('discover_tattoo_style') do
         headers = { 'CONTENT_TYPE' => 'application/json' }
 

@@ -3,7 +3,7 @@ class Image
 
   def initialize(data)
     @id = nil
-    @thumbnail = data[:thumbnail]
-    @title = data[:title]
+    @thumbnail = data[:thumbnailUrl]
+    @title = data[:name]
   end
 end

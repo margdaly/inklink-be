@@ -33,4 +33,4 @@
 /config/application.yml
 
 # Ignore vcr cassettes
-/spec/fixtures/vcr_cassettes
+# /spec/fixtures/vcr_cassettes
