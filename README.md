@@ -21,7 +21,7 @@ InkLink is the Consultancy group project from Turing School of Software and Desi
 ---
 ---
 # Documentaion
-[Ink Link API Documentation](https://inklink-be.herokuapp.com/api-docs/index.html)
+[Ink Link API Documentation](https://inklink-be-b5a197fb428f.herokuapp.com/api-docs/index.html)
 
 ## Schema
 ```
